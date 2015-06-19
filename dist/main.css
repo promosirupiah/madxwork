@@ -1,0 +1,9 @@
+.mntext{background-color:black;background:rgba(0,0,0,0.5);position:absolute;right:-100%;margin-top:10%;color:white;width:50%;padding:0;}
+.mntext p{text-align:right;margin-right:2%;}
+#mainbottomstrip div{margin:0;}
+.botline{color:white;}
+.botline div p{margin:5%;padding:20% 0 0 0;font-size:4vw;}
+.botline div p:hover,.botline div:hover{transition:all 1s;transform:scale(1.1)translate(10px,-10px);}
+#botkiri div{margin:5%;background-color:red;background:rgba(255,0,0,0.7)}
+#botmid div{margin:5%;background-color:green;background:rgba(102,153,51,0.7)}
+#botkanan div{margin:5%;background-color:blue;background:rgba(102,51,255,0.7)}
