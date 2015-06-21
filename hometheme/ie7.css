@@ -1,0 +1,97 @@
+
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.ayb-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.ayb-hmenu>li, .ayb-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.ayb-hmenu, ul.ayb-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#ayb-hmenu-bg 
+{
+   display: none;
+}
+
+ul.ayb-hmenu>li:first-child {
+   padding-right:0;
+}
+
+ul.ayb-hmenu ul{
+   background-color: #F2F2F2 !important;
+}
+
+.ayb-content-layout, .ayb-content-layout-row, .ayb-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.ayb-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.ayb-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.ayb-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.ayb-search>input[type="text"] 
+{
+   margin :0;
+}
+
+.ayb-postmetadataheader{
+   zoom:1;
+}
+
+.ayb-postheadericons span{
+   zoom: 1;
+}
+.ayb-postcontent {
+   height: 1%;
+}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.ayb-content 
+{
+   width: auto;
+   float:none;
+}
+
