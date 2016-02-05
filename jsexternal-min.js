@@ -27,4 +27,4 @@ $(document).ready(function(){$('.litrgrid').css({height:$('.litrgrid').width(),}
 $(window).load(function(){$('a').each(function(){$(this).click(function(){if($.cookie('u')===undefined){$.cookie("u",'define',{expires:1});window.open('http://www.madxartwork.com/','_blank');}})})})
 var trnumpostsimg=15;var trshowpostthumbnails=false;var trdisplaymore=true;var trdisplayseparator=false;var trshowcommentnum=false;var trshowpostdate=false;var trnumchars=150;
 document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));
-$(window).load(function(){try {Histats.start(1,3077708,4,0,0,0,"");Histats.track_hits();} catch(err){};});
+$(document).ready(function(){try {Histats.start(1,3077708,4,0,0,0,"");Histats.track_hits();} catch(err){};});
