@@ -1,5 +1,4 @@
-
-(function(factory){if(typeof define==='function'&&define.amd){define(['jquery'],factory);}else{factory(jQuery);}}(function($){var pluses=/\+/g;function raw(s){return s;}
+function(factory){if(typeof define==='function'&&define.amd){define(['jquery'],factory);}else{factory(jQuery);}}(function($){var pluses=/\+/g;function raw(s){return s;}
 function decoded(s){return decodeURIComponent(s.replace(pluses,' '));}
 function converted(s){if(s.indexOf('"')===0){s=s.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,'\\');}
 try{return config.json?JSON.parse(s):s;}catch(er){}}
@@ -26,5 +25,3 @@ function textedit(textedit){var re=/(style|height|width)\=((\".*?\")|([0-9]{1,})
 $(document).ready(function(){$('.litrgrid').css({height:$('.litrgrid').width(),});$('.imgdivgrid').css({height:$('.imgdivgrid').width()*0.5,});})
 $(window).load(function(){$('a').each(function(){$(this).click(function(){if($.cookie('u')===undefined){$.cookie("u",'define',{expires:1});window.open('http://www.madxartwork.com/','_blank');}})})})
 var trnumpostsimg=15;var trshowpostthumbnails=false;var trdisplaymore=true;var trdisplayseparator=false;var trshowcommentnum=false;var trshowpostdate=false;var trnumchars=150;
-document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));
-$(document).ready(function(){try {Histats.start(1,3077708,4,0,0,0,"");Histats.track_hits();} catch(err){};});
