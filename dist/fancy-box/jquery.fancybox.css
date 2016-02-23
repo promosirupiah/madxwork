@@ -10,7 +10,7 @@ div#fancy_overlay {
 	height: 100%;
 	background-color: #666;
 	display: none;
-	z-index: 100000;
+	z-index: 30;
 }
 
 * html div#fancy_overlay {
@@ -317,4 +317,4 @@ td#fancy_title_right {
 	background: transparent url(fancy_title_right.png) repeat-x;
 }
 
-#fancy_inner, #fancy_bg { background-color:black;}	
+#fancy_inner, #fancy_bg {border-radius: 20px 20px 20px 20px; background-color:black;}	
