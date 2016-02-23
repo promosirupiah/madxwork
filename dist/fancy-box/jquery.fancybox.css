@@ -317,4 +317,4 @@ td#fancy_title_right {
 	background: transparent url(fancy_title_right.png) repeat-x;
 }
 
-#fancy_inner, #fancy_bg {border-radius: 20px 20px 20px 20px; background-color:black;}	
+#fancy_inner, #fancy_bg { background-color:black;}	
