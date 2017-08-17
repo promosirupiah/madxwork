@@ -145,7 +145,7 @@
    float: none;
    text-align: center;
 }
-
+.responsive .art-hmenu {clear:both;}
 .responsive .art-nav .art-hmenu.visible 
 {
    display: block;
