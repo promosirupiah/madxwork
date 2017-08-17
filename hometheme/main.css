@@ -292,14 +292,14 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
    -webkit-background-origin: border !important;
    -moz-background-origin: border !important;
    background-origin: border-box !important;
-   background: #A1ADBA url('http://cdn.madxartwork.com/images/button.png') scroll;
-   background: linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/button.png'), linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
-   background: -webkit-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/button.png'), -webkit-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
-   background: -moz-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/button.png'), -moz-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
-   background: -o-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/button.png'), -o-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
-   background: -ms-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/button.png'), -ms-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
-   background: linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/button.png'), linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
-   -svg-background: linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/button.png'), linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   background: #A1ADBA url('http://cdn.madxartwork.net/images/button.png') scroll;
+   background: linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/button.png'), linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/button.png'), -webkit-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/button.png'), -moz-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/button.png'), -o-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/button.png'), -ms-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   background: linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/button.png'), linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/button.png'), linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
    -webkit-border-radius:3px;
    -moz-border-radius:3px;
    border-radius:3px;
@@ -984,7 +984,7 @@ ul.ayb-hmenu ul
    z-index: 10;
    left: 0;
    top: 0;
-   background-image: url('http://cdn.madxartwork.com/images/spacer.gif');
+   background-image: url('http://cdn.madxartwork.net/images/spacer.gif');
 }
 
 .desktop-nav ul.ayb-hmenu>li>ul
@@ -1132,14 +1132,14 @@ div.ayb-block img
 
 .ayb-blockheader
 {
-   background: #363636 url('http://cdn.madxartwork.com/images/blockheader.png') scroll;
-   background: linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/blockheader.png'), linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
-   background: -webkit-linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/blockheader.png'), -webkit-linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
-   background: -moz-linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/blockheader.png'), -moz-linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
-   background: -o-linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/blockheader.png'), -o-linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
-   background: -ms-linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/blockheader.png'), -ms-linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
-   background: linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/blockheader.png'), linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
-   -svg-background: linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/blockheader.png'), linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
+   background: #363636 url('http://cdn.madxartwork.net/images/blockheader.png') scroll;
+   background: linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/blockheader.png'), linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/blockheader.png'), -webkit-linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/blockheader.png'), -moz-linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/blockheader.png'), -o-linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/blockheader.png'), -ms-linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
+   background: linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/blockheader.png'), linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(84, 84, 84, 0.18) 0, rgba(23, 23, 23, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/blockheader.png'), linear-gradient(top, #4A4A4A 0, #212121 100%) no-repeat;
    -webkit-border-radius:6px;
    -moz-border-radius:6px;
    border-radius:6px;
@@ -1277,14 +1277,14 @@ input.ayb-button
 
 .ayb-button.active, .ayb-button.active:hover
 {
-   background: #A1ADBA url('http://cdn.madxartwork.com/images/activebutton.png') scroll;
-   background: linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/activebutton.png'), linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
-   background: -webkit-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/activebutton.png'), -webkit-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
-   background: -moz-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/activebutton.png'), -moz-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
-   background: -o-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/activebutton.png'), -o-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
-   background: -ms-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/activebutton.png'), -ms-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
-   background: linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/activebutton.png'), linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
-   -svg-background: linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.com/images/activebutton.png'), linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   background: #A1ADBA url('http://cdn.madxartwork.net/images/activebutton.png') scroll;
+   background: linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/activebutton.png'), linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/activebutton.png'), -webkit-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/activebutton.png'), -moz-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/activebutton.png'), -o-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/activebutton.png'), -ms-linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   background: linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/activebutton.png'), linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(228, 231, 235, 0.27) 0, rgba(96, 113, 130, 0.11) 100%) no-repeat, url('http://cdn.madxartwork.net/images/activebutton.png'), linear-gradient(top, #CDD4DA 0, #728597 100%) no-repeat;
    -webkit-border-radius:3px;
    -moz-border-radius:3px;
    border-radius:3px;
@@ -1301,14 +1301,14 @@ input.ayb-button
 
 .ayb-button.hover, .ayb-button:hover
 {
-   background: #8A99A8 url('http://cdn.madxartwork.com/images/hoveredbutton.png') scroll;
-   background: linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.com/images/hoveredbutton.png'), linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
-   background: -webkit-linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.com/images/hoveredbutton.png'), -webkit-linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
-   background: -moz-linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.com/images/hoveredbutton.png'), -moz-linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
-   background: -o-linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.com/images/hoveredbutton.png'), -o-linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
-   background: -ms-linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.com/images/hoveredbutton.png'), -ms-linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
-   background: linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.com/images/hoveredbutton.png'), linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
-   -svg-background: linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.com/images/hoveredbutton.png'), linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
+   background: #8A99A8 url('http://cdn.madxartwork.net/images/hoveredbutton.png') scroll;
+   background: linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.net/images/hoveredbutton.png'), linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.net/images/hoveredbutton.png'), -webkit-linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.net/images/hoveredbutton.png'), -moz-linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.net/images/hoveredbutton.png'), -o-linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.net/images/hoveredbutton.png'), -ms-linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
+   background: linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.net/images/hoveredbutton.png'), linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(204, 211, 218, 0.26) 0, rgba(98, 115, 133, 0.1) 81%, rgba(79, 92, 106, 0.12) 100%) no-repeat, url('http://cdn.madxartwork.net/images/hoveredbutton.png'), linear-gradient(top, #B6BFC9 0, #6C7F93 81%, #5F7081 100%) no-repeat;
    -webkit-border-radius:3px;
    -moz-border-radius:3px;
    border-radius:3px;
@@ -2012,7 +2012,7 @@ pre
 
 .ayb-postpdficon:before
 {
-   content:url('http://cdn.madxartwork.com/images/postpdficon.png');
+   content:url('http://cdn.madxartwork.net/images/postpdficon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -2029,7 +2029,7 @@ pre
 
 .ayb-postprinticon:before
 {
-   content:url('http://cdn.madxartwork.com/images/postprinticon.png');
+   content:url('http://cdn.madxartwork.net/images/postprinticon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -2046,7 +2046,7 @@ pre
 
 .ayb-postemailicon:before
 {
-   content:url('http://cdn.madxartwork.com/images/postemailicon.png');
+   content:url('http://cdn.madxartwork.net/images/postemailicon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -2063,7 +2063,7 @@ pre
 
 .ayb-postcontent ul>li:before,  .ayb-post ul>li:before,  .ayb-textblock ul>li:before
 {
-   content:url('http://cdn.madxartwork.com/images/postbullets.png');
+   content:url('http://cdn.madxartwork.net/images/postbullets.png');
    margin-right:6px;
    bottom: 2px;
    position:relative;
@@ -2131,7 +2131,7 @@ pre
 
 blockquote
 {
-   background: #F2F2F2 url('http://cdn.madxartwork.com/images/postquote.png') no-repeat scroll;
+   background: #F2F2F2 url('http://cdn.madxartwork.net/images/postquote.png') no-repeat scroll;
    padding:6px 6px 6px 30px;
    margin:10px 10px 10px 50px;
    color: #121212;
@@ -2257,7 +2257,7 @@ blockquote p,
 
 .ayb-rss-tag-icon
 {
-   background:  url('http://cdn.madxartwork.com/images/footerrssicon.png') no-repeat scroll;
+   background:  url('http://cdn.madxartwork.net/images/footerrssicon.png') no-repeat scroll;
    margin:0 auto;
    min-height:32px;
    min-width:32px;
@@ -2273,7 +2273,7 @@ blockquote p,
 
 .ayb-facebook-tag-icon
 {
-   background:  url('http://cdn.madxartwork.com/images/footerfacebookicon.png') no-repeat scroll;
+   background:  url('http://cdn.madxartwork.net/images/footerfacebookicon.png') no-repeat scroll;
    margin:0 auto;
    min-height:32px;
    min-width:32px;
@@ -2289,7 +2289,7 @@ blockquote p,
 
 .ayb-twitter-tag-icon
 {
-   background:  url('http://cdn.madxartwork.com/images/footertwittericon.png') no-repeat scroll;
+   background:  url('http://cdn.madxartwork.net/images/footertwittericon.png') no-repeat scroll;
    margin:0 auto;
    min-height:32px;
    min-width:32px;
@@ -2400,7 +2400,7 @@ img.ayb-lightbox-image.active
 .loading
 {
    position: fixed;
-   background: #fff url('http://cdn.madxartwork.com/images/preloader-01.gif') center center no-repeat;
+   background: #fff url('http://cdn.madxartwork.net/images/preloader-01.gif') center center no-repeat;
    width: 32px;
    height: 32px;
    z-index: 10100;
