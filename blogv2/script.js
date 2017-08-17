@@ -1183,7 +1183,7 @@ var processHeaderMultipleBg = (function ($) {
             }
             header.append("<div style=\"position:absolute;top:0;left:0;width:100%;height:100%;background:" + bgimage + " " + bgpositions[i] + " no-repeat\">");
         }
-        header.css('background-image', "url('http://cdn.madxartwork.com/blogv2/header.jpg')".replace(/(url\(['"]?)/i, "$1" + path));
+        header.css('background-image', "url('http://cdn.madxartwork.net/blogv2/header.jpg')".replace(/(url\(['"]?)/i, "$1" + path));
         header.css('background-position', "center top");
     });
 })(jQuery);
