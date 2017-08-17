@@ -27,7 +27,7 @@ ul.art-hmenu, ul.art-hmenu ul {
 }
 
 ul.art-hmenu>li:first-child {
-   padding-right:7px;
+   padding-right:9px;
 }
 ul.art-hmenu>li{
    zoom:expression(runtimeStyle.zoom=1,insertBefore(document.createElement('span'),firstChild).className='art-hmenu-separator');
@@ -37,8 +37,8 @@ ul.art-hmenu>li>span.art-hmenu-separator
    position:absolute;
    display: block;
    top:0;
-   left:  -7px;
-   width: 7px;
+   left:  -9px;
+   width: 9px;
    height: 32px;
    background: url('images/menuseparator.png') center center no-repeat;
 }
@@ -96,11 +96,9 @@ ul.art-vmenu, ul.art-vmenu ul, ul.art-vmenu li{
 
 ul.art-vmenu ul 
 {
+   background-color: transparent;
 }
 
-.art-postheadericons span{
-   zoom: 1;
-}
 .art-postcontent {
    height: 1%;
 }

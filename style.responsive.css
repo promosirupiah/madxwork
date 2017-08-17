@@ -128,6 +128,8 @@
 .responsive nav.art-nav
 {
    min-width: 1%;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
 }
 
 .responsive .art-nav 
@@ -177,6 +179,7 @@
 {
    margin-top: 1px !important;
    margin-bottom: 1px !important;
+   text-align: center !important;
    height: auto;
    white-space: normal;
 }
@@ -212,15 +215,6 @@
    visibility: visible !important;
 }
 
-.responsive .art-nav ul.art-hmenu li.active>ul
-{
-   display: block !important;
-}
-.responsive .art-nav ul.art-hmenu ul li.active>a
-{
-   font-weight: bold;
-}
-
 .responsive .art-nav ul.art-hmenu>li>ul>li:first-child:after 
 {
    display: none;
@@ -248,7 +242,7 @@
   
 .responsive .art-nav ul.art-hmenu>li>ul
 {
-   padding: 0;
+   padding: 4px;
 }
   
 .responsive .art-nav ul.art-hmenu>li>ul:before

@@ -376,10 +376,6 @@ var setHMenuOpenDirection = (function ($) {
     });
 })(jQuery);
 
-jQuery(function ($) {
-    $("ul.art-hmenu ul li").hover(function () { $(this).prev().children("a").addClass("art-hmenu-before-hovered"); }, 
-        function () { $(this).prev().children("a").removeClass("art-hmenu-before-hovered"); });
-});
 
 jQuery(function ($) {
     'use strict';
