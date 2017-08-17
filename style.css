@@ -674,7 +674,7 @@ ul.art-hmenu>li:before
    left:  -9px;
    width:9px;
    height: 32px;
-   background: url('images/menuseparator.png') center center no-repeat;
+   background: url('http://cdn.madxartwork.net/images/menuseparator.png') center center no-repeat;
 }
 ul.art-hmenu>li:first-child:before{
    display:none;
@@ -810,7 +810,7 @@ ul.art-hmenu ul
    z-index: 10;
    left: 0;
    top: 0;
-   background-image: url('images/spacer.gif');
+   background-image: url('http://cdn.madxartwork.net/images/spacer.gif');
 }
 
 .desktop ul.art-hmenu>li>ul
@@ -1612,7 +1612,7 @@ div.art-vmenublock img
 
 .art-vmenublockheader .t:before
 {
-   content:url('images/vmenublockheadericon.png');
+   content:url('http://cdn.madxartwork.net/images/vmenublockheadericon.png');
    margin-right:6px;
    bottom: 2px;
    position:relative;
@@ -1717,7 +1717,7 @@ ul.art-vmenu>li:first-child
 
 ul.art-vmenu>li>a:before
 {
-   content:url('images/vmenuitemicon.png');
+   content:url('http://cdn.madxartwork.net/images/vmenuitemicon.png');
    margin-right:5px;
    bottom: 2px;
    position:relative;
@@ -1734,7 +1734,7 @@ ul.art-vmenu>li>a:before
 
 ul.art-vmenu>li>a.active:before
 {
-   content:url('images/vmenuactiveitemicon.png');
+   content:url('http://cdn.madxartwork.net/images/vmenuactiveitemicon.png');
    margin-right:5px;
    bottom: 2px;
    position:relative;
@@ -1751,7 +1751,7 @@ ul.art-vmenu>li>a.active:before
 
 ul.art-vmenu>li>a:hover:before,  ul.art-vmenu>li>a.active:hover:before,  ul.art-vmenu>li:hover>a:before,  ul.art-vmenu>li:hover>a.active:before
 {
-   content:url('images/vmenuhovereditemicon.png');
+   content:url('http://cdn.madxartwork.net/images/vmenuhovereditemicon.png');
    margin-right:5px;
    bottom: 2px;
    position:relative;
@@ -1975,7 +1975,7 @@ div.art-block img
 
 .art-blockheader .t:before
 {
-   content:url('images/blockheadericon.png');
+   content:url('http://cdn.madxartwork.net/images/blockheadericon.png');
    margin-right:6px;
    bottom: 2px;
    position:relative;
@@ -2042,7 +2042,7 @@ div.art-block img
 }
 .art-block ul>li:before
 {
-   content:url('images/blockbullets.png');
+   content:url('http://cdn.madxartwork.net/images/blockbullets.png');
    margin-right:6px;
    bottom: 2px;
    position:relative;
@@ -2217,7 +2217,7 @@ pre
 
 .art-postcontent ul>li:before,  .art-post ul>li:before,  .art-textblock ul>li:before
 {
-   content:url('images/postbullets.png');
+   content:url('http://cdn.madxartwork.net/images/postbullets.png');
    margin-right:6px;
    bottom: 2px;
    position:relative;
@@ -2284,7 +2284,7 @@ pre
 
 blockquote
 {
-   background: #FEE7E8 url('images/postquote.png') no-repeat scroll;
+   background: #FEE7E8 url('http://cdn.madxartwork.net/images/postquote.png') no-repeat scroll;
    border:1px dashed #696969;
    padding:6px 6px 6px 30px;
    margin:10px 10px 10px 50px;
@@ -2359,7 +2359,7 @@ blockquote p,
 
 .art-postcategoryicon:before
 {
-   content:url('images/postcategoryicon.png');
+   content:url('http://cdn.madxartwork.net/images/postcategoryicon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -2376,7 +2376,7 @@ blockquote p,
 
 .art-posttagicon:before
 {
-   content:url('images/posttagicon.png');
+   content:url('http://cdn.madxartwork.net/images/posttagicon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -2504,7 +2504,7 @@ blockquote p,
 
 .art-rss-tag-icon
 {
-   background:  url('images/footerrssicon.png') no-repeat scroll;
+   background:  url('http://cdn.madxartwork.net/images/footerrssicon.png') no-repeat scroll;
    margin:0 auto;
    min-height:32px;
    min-width:32px;
@@ -2520,7 +2520,7 @@ blockquote p,
 
 .art-facebook-tag-icon
 {
-   background:  url('images/footerfacebookicon.png') no-repeat scroll;
+   background:  url('http://cdn.madxartwork.net/images/footerfacebookicon.png') no-repeat scroll;
    margin:0 auto;
    min-height:32px;
    min-width:32px;
@@ -2536,7 +2536,7 @@ blockquote p,
 
 .art-twitter-tag-icon
 {
-   background:  url('images/footertwittericon.png') no-repeat scroll;
+   background:  url('http://cdn.madxartwork.net/images/footertwittericon.png') no-repeat scroll;
    margin:0 auto;
    min-height:32px;
    min-width:32px;
@@ -2636,7 +2636,7 @@ blockquote p,
 
 .art-lightbox-wrapper .loading
 {
-   background: #fff url('images/preloader-01.gif') center center no-repeat;
+   background: #fff url('http://cdn.madxartwork.net/images/preloader-01.gif') center center no-repeat;
    border: 1px solid #b4b4b4;
    border-radius: 10px;
    box-shadow: 0 2px 5px #333;
