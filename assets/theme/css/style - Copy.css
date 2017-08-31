@@ -424,5 +424,6 @@ nav .mbr-section-btn {
 	top: 0;
 	left: -2400px;
 }
-.carousel-caption{background:rgba(0,0,0,0.6);}
+.carousel-caption{background:rgba(0,0,0,0.6);color:White;}
 .btn{color:White!important;}
+.media-container-column, .media-content{background:rgba(0,0,0,0.8);color:White!important;padding:20px;border-radius:15px;}
