@@ -1539,13 +1539,25 @@ pre {
 .cid-quav4LIcjn {
   background-image: url("../../../assets/images/roundcity-finalhdr-1200x900.jpg");
 }
-.cid-qtZDEsDnZs {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
+.cid-quaKXiwZvZ {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url("../../../assets/images/background21.jpg");
 }
-.cid-qtZDEsDnZs .mbr-section-subtitle {
-  color: #767676;
+@media (min-width: 992px) {
+  .cid-quaKXiwZvZ .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-quaKXiwZvZ .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-quaKXiwZvZ .mbr-text {
+    text-align: center;
+  }
 }
 .cid-qtZDy2aHmP .modal-body .close {
   background: #1b1b1b;
