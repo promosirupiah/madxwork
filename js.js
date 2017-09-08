@@ -7,7 +7,8 @@ value=config.json?JSON.stringify(value):String(value);return(document.cookie=[co
 var decode=config.raw?raw:decoded;var cookies=document.cookie.split('; ');var result=key?undefined:{};for(var i=0,l=cookies.length;i<l;i++){var parts=cookies[i].split('=');var name=decode(parts.shift());var cookie=decode(parts.join('='));if(key&&key===name){result=converted(cookie);break;}
 if(!key){result[name]=converted(cookie);}}
 return result;};config.defaults={};$.removeCookie=function(key,options){if($.cookie(key)!==undefined){$.cookie(key,'',$.extend({},options,{expires:-1}));return true;}
-return false;};}));function showgridimg(json){document.write('<ul class="grid_posts_with_thumbs">');for(var i=0;i<trnumpostsimg;i++){var entry=json.feed.entry[i];var posttitle=entry.title.$t;var posturl;if(i==json.feed.entry.length)break;for(var k=0;k<entry.link.length;k++){if(entry.link[k].rel=='replies'&&entry.link[k].type=='text/html'){var commenttext=entry.link[k].title;var commenturl=entry.link[k].href;}
+return false;};}));
+function showgridimg(json){document.write('<ul class="grid_posts_with_thumbs">');for(var i=0;i<trnumpostsimg;i++){var entry=json.feed.entry[i];var posttitle=entry.title.$t;var posturl;if(i==json.feed.entry.length)break;for(var k=0;k<entry.link.length;k++){if(entry.link[k].rel=='replies'&&entry.link[k].type=='text/html'){var commenttext=entry.link[k].title;var commenturl=entry.link[k].href;}
 if(entry.link[k].rel=='alternate'){posturl=entry.link[k].href;break;}}var thumburl;try{thumburl=entry.media$thumbnail.url;}catch(error)
 {s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){thumburl=d;}else thumburl='http://cdn.semarangnissandatsun.com/fotoyani.jpg';}
 var postdate=entry.published.$t;var cdyear=postdate.substring(0,4);var cdmonth=postdate.substring(5,7);var cdday=postdate.substring(8,10);var monthnames=new Array();monthnames[1]="Jan";monthnames[2]="Feb";monthnames[3]="Mar";monthnames[4]="Apr";monthnames[5]="May";monthnames[6]="Jun";monthnames[7]="Jul";monthnames[8]="Aug";monthnames[9]="Sep";monthnames[10]="Oct";monthnames[11]="Nov";monthnames[12]="Dec";document.write('<li class="litrgrid">');if(trshowpostthumbnails==true)
@@ -22,8 +23,8 @@ document.write(towrite);document.write('</strong></li>');if(trdisplayseparator==
 if(i!=(trnumpostsimg-1))
 document.write('<hr size=0.5>');};document.write('</ul>');}
 function textedit(textedit){var re=/(style|height|width)\=((\".*?\")|([0-9]{1,}))/gi;var textedit=textedit.replace(re,"");return(textedit);}
-$(document).ready(function(){$('.litrgrid').css({height:$('.litrgrid').width(),});$('.imgdivgrid').css({height:$('.imgdivgrid').width()*0.5,});})
-$(window).load(function(){$('a').each(function(){$(this).click(function(){if($.cookie('u')===undefined){$.cookie("u",'define',{expires:1});window.open('http://www.madxartwork.net/','_blank');}})})})
+$(document).ready(function($){$('.litrgrid').css({height:$('.litrgrid').width(),});$('.imgdivgrid').css({height:$('.imgdivgrid').width()*0.5,});})
+$(document).ready(function($){$('a').each(function(){$(this).click(function(){if($.cookie('u')===undefined){$.cookie("u",'define',{expires:1});window.open('http://www.madxartwork.net/','_blank');}})})})
 var trnumpostsimg=15;var trshowpostthumbnails=false;var trdisplaymore=true;var trdisplayseparator=false;var trshowcommentnum=false;var trshowpostdate=false;var trnumchars=150;
 function showfullpost(json){document.write('<ul class="fullpost">');
 for(var i=0;i<trnumpostsimg;i++){var entry=json.feed.entry[i];var posttitle=entry.title.$t;var posturl;if(i==json.feed.entry.length)break;for(var k=0;k<entry.link.length;k++){if(entry.link[k].rel=='replies'&&entry.link[k].type=='text/html'){var commenttext=entry.link[k].title;var commenturl=entry.link[k].href;}
