@@ -1095,7 +1095,7 @@ jQuery(function ($) {
         path = src.substr(0, src.indexOf("script.js"));
     }
     var header = $(".ayb-header");
-    var bgimages = "url('http://cdn.madxartwork.net/images/object0.png'), ".split(",");
+    var bgimages = "url('https://cdn.madxartwork.net/images/object0.png'), ".split(",");
     var bgpositions = "691px -36px, ".split(",");
     for (var i = bgimages.length - 1; i >= 0; i--) {
         var bgimage = $.trim(bgimages[i]);
@@ -1106,7 +1106,7 @@ jQuery(function ($) {
         }
         header.append("<div style=\"position:absolute;top:0;left:0;width:100%;height:100%;background:" + bgimage + " " + bgpositions[i] + " no-repeat\">");
     }
-    header.css('background-image', "url('http://cdn.madxartwork.net/images/header.png')".replace(/(url\(['"]?)/i, "$1" + path));
+    header.css('background-image', "url('https://cdn.madxartwork.net/images/header.png')".replace(/(url\(['"]?)/i, "$1" + path));
     header.css('background-position', "0 0");
 });
 var artInsertSidebarBlocks = (function ($) {
