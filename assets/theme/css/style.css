@@ -428,3 +428,4 @@ nav .mbr-section-btn {
 .btn{color:White!important;}
 .media-container-column, .media-content{background:rgba(0,0,0,0.8);color:White!important;padding:20px;border-radius:15px;}
 .mbr-figure{background:rgba(255,255,255,0.6);padding:10px;border-radius:10px;}
+.video-container img{display:none;}
