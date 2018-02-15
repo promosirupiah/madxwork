@@ -1,4 +1,4 @@
-@import url(../../../https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url(../../../https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
 
 
 
@@ -21,35 +21,35 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 2.6rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 4.16rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 2.2rem;
 }
 .display-2 > .mbr-iconfont {
   font-size: 3.52rem;
 }
 .display-4 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
@@ -101,7 +101,7 @@ body {
   word-break: break-word;
 }
 .navbar .btn {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
 .navbar .btn > .mbr-iconfont {
@@ -629,7 +629,7 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.43;
   min-height: 3.5em;
@@ -830,6 +830,29 @@ pre {
 .cid-qsxlvhiPDe .mbr-text B {
   color: #efefef;
 }
+.cid-qJK1LStgDW {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
+}
+.cid-qJK1LStgDW .line {
+  background-color: #ffffff;
+  color: #ffffff;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qJK1LStgDW .section-text {
+  padding: 2rem 0;
+}
+.cid-qJK1LStgDW .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qJK1LStgDW .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-qsxgwRKM7F {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -877,6 +900,15 @@ pre {
   .cid-qtUikf9SV9 .inner-container {
     width: 100% !important;
   }
+}
+.cid-qJK6J7ZMfa {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-qJK6J7ZMfa .mbr-text,
+.cid-qJK6J7ZMfa blockquote {
+  color: #767676;
 }
 .cid-qsxmCw4Zma .modal-body .close {
   background: #1b1b1b;
