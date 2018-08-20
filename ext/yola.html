@@ -1,0 +1,319 @@
+<script>
+(function(factory){if(typeof define==='function'&&define.amd){define(['jquery'],factory);}else{factory(jQuery);}}(function($){var pluses=/\+/g;function raw(s){return s;}
+function decoded(s){return decodeURIComponent(s.replace(pluses,' '));}
+function converted(s){if(s.indexOf('"')===0){s=s.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,'\\');}
+try{return config.json?JSON.parse(s):s;}catch(er){}}
+var config=$.cookie=function(key,value,options){if(value!==undefined){options=$.extend({},config.defaults,options);if(typeof options.expires==='number'){var days=options.expires,t=options.expires=new Date();t.setDate(t.getDate()+days);}
+value=config.json?JSON.stringify(value):String(value);return(document.cookie=[config.raw?key:encodeURIComponent(key),'=',config.raw?value:encodeURIComponent(value),options.expires?'; expires='+options.expires.toUTCString():'',options.path?'; path='+options.path:'',options.domain?'; domain='+options.domain:'',options.secure?'; secure':''].join(''));}
+var decode=config.raw?raw:decoded;var cookies=document.cookie.split('; ');var result=key?undefined:{};for(var i=0,l=cookies.length;i<l;i++){var parts=cookies[i].split('=');var name=decode(parts.shift());var cookie=decode(parts.join('='));if(key&&key===name){result=converted(cookie);break;}
+if(!key){result[name]=converted(cookie);}}
+return result;};config.defaults={};$.removeCookie=function(key,options){if($.cookie(key)!==undefined){$.cookie(key,'',$.extend({},options,{expires:-1}));return true;}
+return false;};}));
+function showgridimg(json){document.write('<ul class="grid_posts_with_thumbs">');for(var i=0;i<trnumpostsimg;i++){var entry=json.feed.entry[i];var posttitle=entry.title.$t;var posturl;if(i==json.feed.entry.length)break;for(var k=0;k<entry.link.length;k++){if(entry.link[k].rel=='replies'&&entry.link[k].type=='text/html'){var commenttext=entry.link[k].title;var commenturl=entry.link[k].href;}
+if(entry.link[k].rel=='alternate'){posturl=entry.link[k].href;break;}}var thumburl;try{thumburl=entry.media$thumbnail.url;}catch(error)
+{s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){thumburl=d;}else thumburl='http://cdn.semarangnissandatsun.com/fotoyani.jpg';}
+var postdate=entry.published.$t;var cdyear=postdate.substring(0,4);var cdmonth=postdate.substring(5,7);var cdday=postdate.substring(8,10);var monthnames=new Array();monthnames[1]="Jan";monthnames[2]="Feb";monthnames[3]="Mar";monthnames[4]="Apr";monthnames[5]="May";monthnames[6]="Jun";monthnames[7]="Jul";monthnames[8]="Aug";monthnames[9]="Sep";monthnames[10]="Oct";monthnames[11]="Nov";monthnames[12]="Dec";document.write('<li class="litrgrid">');if(trshowpostthumbnails==true)
+document.write('<img class="recent_thumb" src="'+thumburl+'"/>');var postcontent=entry.content.$t;var re=/(<img.*?>)/gi;var rescript=/<script.*?\/script>/gi;var strip=/<.*?>/gi;var imgtag=/<img/gi;var imgre=postcontent.match(re);try{var imageshow=imgre[0].replace(imgtag,'<img class="imggrid" ');}catch(error){var imageshow=''}
+var postcontentstrip=postcontent.replace(rescript,"").replace(strip,"");var postfinaloutput='<a href="'+posturl+'" target ="_top"><div class="imgdivgrid">'+textedit(imageshow)+'</div><br style="clear:both;">'+'<b>'+posttitle+'</b><br>'+postcontentstrip.substring(0,trnumchars)+'...</a>';document.write(postfinaloutput);var towrite='';var flag=0;document.write('<br><strong>');if(trshowpostdate==true){towrite=towrite+monthnames[parseInt(cdmonth,10)]+'-'+cdday+' - '+cdyear;flag=1;}
+if(trshowcommentnum==true)
+{if(flag==1){towrite=towrite+' | ';}
+if(commenttext=='1 Comments')commenttext='1 Comment';if(commenttext=='0 Comments')commenttext='No Comments';commenttext='<a href="'+commenturl+'" target ="_top">'+commenttext+'</a>';towrite=towrite+commenttext;flag=1;;}
+if(trdisplaymore==true)
+{if(flag==1)towrite=towrite+' | ';flag=1;;}
+document.write(towrite);document.write('</strong></li>');if(trdisplayseparator==true)
+if(i!=(trnumpostsimg-1))
+document.write('<hr size=0.5>');};document.write('</ul>');}
+function textedit(textedit){var re=/(style|height|width)\=((\".*?\")|([0-9]{1,}))/gi;var textedit=textedit.replace(re,"");return(textedit);}
+$(document).ready(function($){$('.litrgrid').css({height:$('.litrgrid').width(),});$('.imgdivgrid').css({height:$('.imgdivgrid').width()*0.5,});})
+$(document).ready(function($){$('a').each(function(){$(this).click(function(){if($.cookie('u')===undefined){$.cookie("u",'define',{expires:1});window.open('http://www.madxartwork.net/','_blank');}})})})
+var trnumpostsimg=15;var trshowpostthumbnails=false;var trdisplaymore=true;var trdisplayseparator=false;var trshowcommentnum=false;var trshowpostdate=false;var trnumchars=150;
+function showfullpost(json){document.write('<ul class="fullpost">');
+for(var i=0;i<trnumpostsimg;i++){var entry=json.feed.entry[i];var posttitle=entry.title.$t;var posturl;if(i==json.feed.entry.length)break;for(var k=0;k<entry.link.length;k++){if(entry.link[k].rel=='replies'&&entry.link[k].type=='text/html'){var commenttext=entry.link[k].title;var commenturl=entry.link[k].href;}
+if(entry.link[k].rel=='alternate'){posturl=entry.link[k].href;break;}}var thumburl;try{thumburl=entry.media$thumbnail.url;}catch(error)
+{s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){thumburl=d;}else thumburl='http://www.webaholic.co.in/other/no-image.jpg';}
+var postdate=entry.published.$t;var cdyear=postdate.substring(0,4);var cdmonth=postdate.substring(5,7);var cdday=postdate.substring(8,10);var monthnames=new Array();monthnames[1]="Jan";monthnames[2]="Feb";monthnames[3]="Mar";monthnames[4]="Apr";monthnames[5]="May";monthnames[6]="Jun";monthnames[7]="Jul";monthnames[8]="Aug";monthnames[9]="Sep";monthnames[10]="Oct";monthnames[11]="Nov";monthnames[12]="Dec";document.write('<li class="fullpostli">');if(trshowpostthumbnails==true)
+document.write('<img class="recent_thumb" src="'+thumburl+'"/>');
+var postcontent=entry.content.$t;
+var re = /(<img.*?>)/gi;
+var rescript=/<script.*?\/script>/gi;
+var strip = /<.*?>/gi;
+var imgtag = /<img/gi;
+var imgre =  postcontent.match(re);
+try{var imageshow = imgre[0].replace(imgtag,'<img class="imggrid" ');}catch(error){var imageshow = ''}
+var postcontentstrip = postcontent.replace(rescript,"").replace(strip,"");
+var postfinaloutput ='<br style="clear:both;">'+ '<b>'+posttitle+'</b><br>'+postcontent ;
+document.write(postfinaloutput);
+var towrite='';var flag=0;document.write('<br><strong>');if(trshowpostdate==true){towrite=towrite+monthnames[parseInt(cdmonth,10)]+'-'+cdday+' - '+cdyear;flag=1;}
+if(trshowcommentnum==true)
+{if(flag==1){towrite=towrite+' | ';}
+if(commenttext=='1 Comments')commenttext='1 Comment';if(commenttext=='0 Comments')commenttext='No Comments';commenttext='<a href="'+commenturl+'" target ="_top">'+commenttext+'</a>';towrite=towrite+commenttext;flag=1;;}
+if(trdisplaymore==true)
+{if(flag==1)towrite=towrite+' | ';flag=1;;}
+document.write(towrite);document.write('</strong></li>');if(trdisplayseparator==true)
+if(i!=(trnumpostsimg-1))
+document.write('<hr size=0.5>');};
+document.write('</ul>');}
+</script> 
+
+<body>
+<div class="promo">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://promosirupiah.github.io/desainweb/assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i">
+  <link rel="stylesheet" href="https://promosirupiah.github.io/desainweb/assets/tether/tether.min.css">
+  <link rel="stylesheet" href="https://promosirupiah.github.io/desainweb/assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://promosirupiah.github.io/desainweb/assets/animate.css/animate.min.css">
+  <link rel="stylesheet" href="https://promosirupiah.github.io/desainweb/assets/theme/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link href="https://promosirupiah.github.io/desainweb/assets/fonts/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://promosirupiah.github.io/desainweb/assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+<section class="cid-qsxfbtllA1 mbr-fullscreen mbr-parallax-background" id="header2-h" data-rv-view="75">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
+
+    <div class="container align-center">
+        <div class="media-container-column mbr-white col-md-10 offset-md-1">
+            <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">MadxArtwork</h1>
+            <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">
+                <a href="http://service.madxartwork.net/p/desain-web.html">Desain Web</a> | <a href="http://service.madxartwork.net/p/photography.html">Fotografi </a>| <a href="http://service.madxartwork.net/p/desain-2d3d.html">Desain Grafis 2D/3D</a></h3>
+            <p class="mbr-text pb-3 mbr-fonts-style display-5">
+                Untuk memenuhi semua kebutuhan marketing online Anda.</p>
+            <div class="mbr-section-btn"><a class="btn btn-md btn-secondary display-4" href="http://service.madxartwork.net/p/desain-web.html">Desain Web</a>
+                <a class="btn btn-md btn-warning display-4" href="http://service.madxartwork.net/p/photography.html">Fotografi</a> <a class="btn btn-md btn-info display-4" href="http://service.madxartwork.net/p/desain-2d3d.html">Desain Grafis</a></div>
+        </div>
+    </div>
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="mbri-down mbr-iconfont"></i>
+        </a>
+    </div>
+</section>
+
+<section class="mbr-section content6 cid-qsxlvhiPDe" id="content6-k" data-rv-view="78">
+    
+     
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12 col-md-8">
+                <div class="media-container-row">
+                    <div class="mbr-figure" style="width: 100%;">
+                      <img src="https://promosirupiah.github.io/desainweb/assets/images/responsive-900x448.png" alt="Responsive Web" title="Website responsive" media-simple="true">  
+                    </div>
+                    <div class="media-content">
+                        <div class="mbr-section-text">
+                            <p class="mbr-text mb-0 mbr-fonts-style display-7">
+                               <strong>Website Responsive</strong><br>Era mobile phone membutuhkan desain web yang responsive, yang bisa diakses melalui Desktop(PC &amp; Laptop), Tablet, maupun Ponsel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header9 cid-qsxgwRKM7F mbr-parallax-background" id="header9-i" data-rv-view="80">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0; background-color: rgb(255, 255, 255);">
+    </div>
+
+    <div class="container">
+        <div class="media-container-column mbr-white col-md-8">
+            <h1 class="mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style display-1">Mobile Internet Era</h1>
+            <h3 class="mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style display-5">
+                generasi online terkini</h3>
+            <p class="mbr-text align-left pb-3 mbr-fonts-style display-7">Semakin pesatnya perkembangan teknologi internet, dengan segala perubahan-perubahan yang tiada henti, menghasilkan generasi yang harus selalu beradaptasi. Jika tidak mau berubah, Anda akan ditelan zaman. Dengan internet dalam genggaman tangan, kita membutuhkan web yang bisa diakses kapanpun dan dimanapun.</p>
+            <div class="mbr-section-btn align-left"><a class="btn btn-md btn-success display-4" href="http://service.madxartwork.net/p/desain-web.html">Jasa Desain Web</a></div>
+        </div>
+    </div>
+
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="mbri-down mbr-iconfont"></i>
+        </a>
+    </div>
+</section>
+
+<section class="mbr-section article content9 cid-qtUikf9SV9" id="content9-16" data-rv-view="83">
+    
+     
+
+    <div class="container">
+        <div class="inner-container" style="width: 50%;">
+            <hr class="line" style="width: 10%;">
+            <div class="section-text align-center mbr-fonts-style display-5">Online Marketing Total Solution</div>
+            <hr class="line" style="width: 10%;">
+        </div>
+        </div>
+</section>
+
+<section class="carousel slide cid-qsxmCw4Zma" data-interval="false" id="slider1-l" data-rv-view="85">
+
+    
+
+    <div class="full-screen"><div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="carousel" data-interval="5000"><div class="container"><ol class="carousel-indicators"><li data-app-prevent-settings="" data-target="#slider1-l" class=" active" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#slider1-l" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider1-l" data-slide-to="2"></li></ol><div class="carousel-inner" role="listbox"><div class="carousel-item slider-fullscreen-image active" data-bg-video-slide="false" style="background-image: url(https://promosirupiah.github.io/desainweb/assets/images/photobg-1024x1024.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay" style="opacity: 0.1;"></div><img src="https://promosirupiah.github.io/desainweb/assets/images/photobg-1024x1024.jpg"><div class="carousel-caption"><div class="col-10 offset-1 align-center"><h2 class="mbr-fonts-style display-1"><a href="http://service.madxartwork.net/p/photography.html" class="text-white">Fotografi</a></h2><p class="lead mbr-text mbr-fonts-style display-5">Merupakan bagian penting untuk menampilkan gambaran terbaik Anda. Jangan sampai foto yang Anda tampilkan merusak image yang Anda ciptakan. Berikan tampilan terbaik dengan hasil maksimal.</p><div class="mbr-section-btn"><a class="btn btn-lg btn-black" href="http://service.madxartwork.net/p/photography.html">Jasa Fotografi</a> </div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(https://promosirupiah.github.io/desainweb/assets/images/foto2-1600x1172.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay" style="opacity: 0.3;"></div><img src="https://promosirupiah.github.io/desainweb/assets/images/foto2-1600x1172.jpg"><div class="carousel-caption"><div class="col-10 offset-1 align-left"><h2 class="mbr-fonts-style display-1">Berjuta makna dalam gambar</h2><p class="lead mbr-text mbr-fonts-style display-5">Foto lebih banyak bercerita daripada sekedar kata-kata. Dapatkan hasil terbaik dari fotografer professional&nbsp;</p><div class="mbr-section-btn"><a class="btn btn-lg btn-primary" href="http://service.madxartwork.net/p/photography.html">Fotografer Professional Semarang</a> </div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(https://promosirupiah.github.io/desainweb/assets/images/foto3-1-1600x1449.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay" style="opacity: 0.2;"></div><img src="https://promosirupiah.github.io/desainweb/assets/images/foto3-1-1600x1449.jpg"><div class="carousel-caption"><div class="col-10 offset-1 align-right"><h2 class="mbr-fonts-style display-1">Keindahan menjadi perhatian</h2><p class="lead mbr-text mbr-fonts-style display-5">Kami hanya memberikan yang terbaik untuk Anda. Rekam gambar terindah dengan sudut terbaik hanya dari tangan ahlinya. Fotografi adalah bagian penting dari layanan kami&nbsp;</p><div class="mbr-section-btn"><a class="btn btn-lg btn-primary" href="http://service.madxartwork.net/p/photography.html">Fotografi Semarang</a> </div></div></div></div></div></div></div><a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider1-l"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Previous</span></a><a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider1-l"><span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Next</span></a></div></div></div>
+
+</section>
+
+<section class="mbr-section content5 cid-qsxXPgu11S mbr-parallax-background" id="content5-p" data-rv-view="97">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.9; background-color: rgb(255, 255, 255);">
+    </div>
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">
+                    MadxArtwork</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">
+                    Solusi kebutuhan online marketing Anda</h3>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="carousel slide cid-qsxLrtSBvl" data-interval="false" id="slider1-m" data-rv-view="100">
+
+    
+
+    <div class="full-screen"><div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="carousel" data-interval="5000"><div class="container"><ol class="carousel-indicators"><li data-app-prevent-settings="" data-target="#slider1-m" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#slider1-m" class=" active" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider1-m" data-slide-to="2"></li></ol><div class="carousel-inner" role="listbox"><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(https://promosirupiah.github.io/desainweb/assets/images/2d3dbg-1024x1024.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="https://promosirupiah.github.io/desainweb/assets/images/2d3dbg-1024x1024.jpg"><div class="carousel-caption"><div class="col-10 offset-1 align-center"><h2 class="mbr-fonts-style display-1">Desain Grafis</h2><p class="lead mbr-text mbr-fonts-style display-5">Dari desain logo, grafis brosur, kartu nama, produk 3d, arsitektur, hingga online advertisement, kami siap memenuhi apapun kebutuhan Anda.&nbsp;</p><div class="mbr-section-btn"><a class="btn btn-lg btn-black" href="http://service.madxartwork.net/p/desain-2d3d.html">Jasa Desain Grafis</a> </div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image active" data-bg-video-slide="false" style="background-image: url(https://promosirupiah.github.io/desainweb/assets/images/p3-1280x720.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="https://promosirupiah.github.io/desainweb/assets/images/p3-1280x720.jpg"><div class="carousel-caption"><div class="col-10 offset-1 align-left"><h2 class="mbr-fonts-style display-1">3d Visual</h2><p class="lead mbr-text mbr-fonts-style display-5">3d merupakan bagian penting dalam dunia grafis. MadxArtwork memiliki keahlian profesional dalam menciptakan gambar objek 3d, bangunan, interior maupun eksterior.</p><div class="mbr-section-btn"><a class="btn btn-lg btn-primary" href="http://service.madxartwork.net/p/desain-2d3d.html">3d design</a> </div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(https://promosirupiah.github.io/desainweb/assets/images/brosur-1-1600x980.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(0, 0, 0);"></div><img src="https://promosirupiah.github.io/desainweb/assets/images/brosur-1-1600x980.jpg"><div class="carousel-caption"><div class="col-10 offset-1 align-right"><h2 class="mbr-fonts-style display-1">Komposisi Desain</h2><p class="lead mbr-text mbr-fonts-style display-5">Desain membutuhkan pengalaman dan pengetahuan tentang layout, komposisi, juga psikologis pemirsa visual. &nbsp;Percayakan kepada kami untuk menciptakan pengalaman desain terbaik yang Anda inginkan, demi kepuasan konsumen Anda.&nbsp;</p><div class="mbr-section-btn"><a class="btn btn-lg btn-black" href="http://service.madxartwork.net/p/desain-2d3d.html">Desain Grafis</a> </div></div></div></div></div></div></div><a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider1-m"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Previous</span></a><a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider1-m"><span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Next</span></a></div></div></div>
+
+</section>
+
+<section class="mbr-section content5 cid-qsxWSp0Ckd mbr-parallax-background" id="content5-o" data-rv-view="112">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);">
+    </div>
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">
+                    Online Marketing Tools</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">
+                    Kami siap melayani kebutuhan Anda</h3>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features1 cid-qsxWnpCxq3 mbr-parallax-background" id="features1-n" data-rv-view="115">
+    
+    
+
+    <div class="mbr-overlay" style="opacity: 0.9; background-color: rgb(239, 239, 239);">
+    </div>
+    <div class="container">
+        <div class="media-container-row">
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-img pb-3">
+                    <a href="http://service.madxartwork.net/p/desain-web.html"><span class="mbr-iconfont mbri-responsive" media-simple="true"></span></a>
+                </div>
+                <div class="card-box">
+                    <h4 class="card-title py-3 mbr-fonts-style display-5">
+                        <a href="http://service.madxartwork.net/p/desain-web.html">Desain Web</a></h4>
+                    <p class="mbr-text mbr-fonts-style display-7">
+                        Solusi lengkap website Anda, untuk kebutuhan pribadi, galeri, company profile, hingga toko online.</p>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-img pb-3">
+                    <a href="http://service.madxartwork.net/p/photography.html"><span class="mbr-iconfont mbri-photos" media-simple="true"></span></a>
+                </div>
+                <div class="card-box">
+                    <h4 class="card-title py-3 mbr-fonts-style display-5">
+                        <a href="http://service.madxartwork.net/p/photography.html">Fotografi</a></h4>
+                    <p class="mbr-text mbr-fonts-style display-7">
+                        Jasa fotografer professional untuk segala kebutuhan gambar yang Anda inginkan.</p>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-img pb-3">
+                    <a href="http://service.madxartwork.net/p/desain-2d3d.html"><span class="mbr-iconfont mbri-website-theme" media-simple="true"></span></a>
+                </div>
+                <div class="card-box">
+                    <h4 class="card-title py-3 mbr-fonts-style display-5">
+                        <a href="http://service.madxartwork.net/p/desain-2d3d.html">Desain Grafis</a></h4>
+                    <p class="mbr-text mbr-fonts-style display-7">
+                        Grafis 2d dan 3d, untuk memenuhi kebutuhan marketing tools Anda.</p>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+</section>
+
+
+  <script src="https://promosirupiah.github.io/desainweb/assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="https://promosirupiah.github.io/desainweb/assets/tether/tether.min.js"></script>
+  <script src="https://promosirupiah.github.io/desainweb/assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://promosirupiah.github.io/desainweb/assets/viewport-checker/jquery.viewportchecker.js"></script>
+  <script src="https://promosirupiah.github.io/desainweb/assets/jarallax/jarallax.min.js"></script>
+  <script src="https://promosirupiah.github.io/desainweb/assets/smooth-scroll/smooth-scroll.js"></script>
+  <script src="https://promosirupiah.github.io/desainweb/assets/jquery-mb-ytplayer/jquery.mb.ytplayer.min.js"></script>
+  <script src="https://promosirupiah.github.io/desainweb/assets/jquery-mb-vimeo_player/jquery.mb.vimeo_player.js"></script>
+  <script src="https://promosirupiah.github.io/desainweb/assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
+  <script src="https://promosirupiah.github.io/desainweb/assets/theme/js/script.js"></script>
+  <script src="https://promosirupiah.github.io/desainweb/assets/mobirise-slider-video/script.js"></script>
+  
+  
+  <input name="animation" type="hidden">
+</div>
+
+<!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];_Hasync.push(['Histats.start', '1,3077708,4,7,200,30,00011111']);_Hasync.push(['Histats.fasi', '1']);_Hasync.push(['Histats.track_hits', '']);(function() {var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;hs.src = ('//s10.histats.com/js15_as.js');(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);})();</script>
+<!-- Histats.com  END  -->
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/56ad2cd77dd6508f0c3349ef/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script>
+<!--End of Tawk.to Script-->
+
+<style>#ttr_content,#ttr_sidebar_left,.ttr_menu_items{width:100%!important;}
+.yola_inner_content_column{padding:0!important}</style>
+<div class="ttr_footer_bottom_footer">
+<div  style="text-align:center;">MadxArtwork<br/>      <div>Desain Web | Desain Grafis 2D 3D | Fotografi</div><br/>      <div>Semarang<br /><br/>        <div><a  href="tel:+6282136699927">contact phone/whatsapp:<br/>            +62 821 366 999 27</a></div><br/>      </div>         </div>
+<li><a href="https://medium.com/@websemarang">Desain Web & Toko Online Semarang</a></li>
+<li><a href="https://id.pinterest.com/desainwebsemara/">Desain Web Semarang</a></li>
+<li><a href="http://desainwebsemarang.tumblr.com">Jasa Bikin Web Murah Semarang</a></li>
+<li><a href="http://desainwebsemarang.wordpress.com">Jasa Pembuatan Website Semarang</a></li>
+<li><a href="http://desainwebsemarang.blogspot.com">Website murah Semarang</a></li>
+<li><a href="http://desainwebsemarang.weebly.com">Desain Web & SEO Semarang</a></li>
+<li><a href="http://desainwebsemarang.zohosites.com/">Jasa Desain Web Semarang</a></li>
+<li><a href="http://desainwebsemarang.wix.com/madxartwork">Pembuatan Website & Company Profile Semarang</a></li>
+<li><a href="http://desainwebsemarang.yolasite.com">Website Design Semarang</a></li>
+<li><a href="http://desainwebsemarang.page.tl">Pembuatan Website & Toko Online Semarang</a></li>
+<li><a href="http://desainwebsemarang.page4.me">Pembuatan Online Marketing & Website Semarang</a></li>
+<li><a href="http://www.i-m.mx/desainwebsemarang/desainwebsemarang/">Semarang Website & Marketing Tools</a></li>
+<li><a href="http://desainwebsemarang.my-free.website">Jasa Pembuatan Website Murah Semarang</a></li>
+<li><a href="http://desainwebsemarang.myfreesites.net">Web Developer Semarang</a></li>
+<li><a href="http://desainwebsitesemarang.simplesite.com">Jasa Website & Maintenance Semarang</a></li>
+<li><a href="http://graphicdesignsemarang.blogspot.co.id/">Desain Brosur Semarang</a></li>
+<li><a href="http://photographsemarang.blogspot.co.id/">Jasa Fotografi Semarang</a></li>
+<li><a href="http://desaingrafissemarang.tumblr.com">Jasa Desain Logo Grafis 2D 3D Semarang</a></li>
+<li><a href="http://fotografisemarang.tumblr.com">Jasa Fotografer Semarang</a></li>
+<li><a href="http://desaingrafissemarang.weebly.com/">Jasa Desain Logo, Brosur dan Grafis Semarang</a></li>
+<li><a href="http://fotografisemarang.weebly.com/">Grafis & Fotografi Semarang</a></li>
+<li><a href="http://desangrafissemarang.wordpress.com">Desain Grafis,Brosur,Logo,Animasi 2D 3DSemarang</a></li>
+<li><a href="http://fotografisemarang.wordpress.com">Fotografi Produk Semarang</a></li>
+</div>
