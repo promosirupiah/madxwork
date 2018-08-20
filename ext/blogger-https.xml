@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html dir='LTR' xmlns='https://www.w3.org/1999/xhtml' xmlns:b='https://www.google.com/2005/gml/b' xmlns:data='https://www.google.com/2005/gml/data' xmlns:expr='https://www.google.com/2005/gml/expr'>
+<html dir='LTR' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <b:include data='blog' name='all-head-content'/>
 <b:if cond='data:blog.pageName == ""'>
@@ -2516,7 +2516,7 @@ document.write('</ul>');}
 <body>
 
     <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'>
-      <b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar'>
+      <b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar' version='1'>
         <b:includable id='main'><script type="text/javascript">
     function setAttributeOnload(object, attribute, val) {
       if(window.addEventListener) {
@@ -2533,7 +2533,7 @@ document.write('</ul>');}
       gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d1944688421423438512\x26blogName\x3dJasa+Desain+Website+Semarang\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://desainwebsemarang.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttps://desainwebsemarang.blogspot.com/\x26vt\x3d49870532356681873',
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d1944688421423438512\x26blogName\x3dWebsite+murah+Semarang\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://desainwebsemarang.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttps://desainwebsemarang.blogspot.com/\x26vt\x3d49870532356681873',
               where: document.getElementById("navbar-iframe-container"),
               id: "navbar-iframe"
           });
@@ -2562,13 +2562,14 @@ var showVMenu = false;
 <script>
 artFixNavbarPadding();
 </script>
+<!--
 <div class='art-nav desktop-nav'>
 <div style='background:url(&apos;https://cdn.madxartwork.net/images/logosmall.png&apos;);float:left;width:90px;height:50px;'/>  
 <b:section id='crosscol' maxwidgets='1' showaddelement='no'>
     <b:widget id='PageList98' locked='false' title='Pages' type='PageList' version='1'>
       <b:widget-settings>
-        <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://desainwebsemarang.blogspot.com/', 'title': 'Home', 'position': 0}, 'link0': {'href': 'https://service.madxartwork.net/p/desain-web.html', 'title': 'Desain Web Semarang', 'position': 1}, 'link1': {'href': 'https://service.madxartwork.net/p/photography.html', 'title': 'Fotografi Semarang', 'position': 2}, 'link2': {'href': 'https://service.madxartwork.net/p/desain-2d3d.html', 'title': 'Desain Grafis 2d 3d Semarang', 'position': 3}}]]></b:widget-setting>
-        <b:widget-setting name='homeTitle'>Home</b:widget-setting>
+        <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://desainwebsemarang.blogspot.com/', 'title': 'Website murah Semarang', 'position': 0}, 'link0': {'href': 'https://websitesemarang.madxartwork.net/', 'title': 'Web Semarang', 'position': 1}, 'link1': {'href': 'https://service.madxartwork.net/p/desain-web.html', 'title': 'Desain Web Semarang', 'position': 2}, 'link2': {'href': 'https://service.madxartwork.net/p/photography.html', 'title': 'Fotografi Semarang', 'position': 3}, 'link3': {'href': 'https://service.madxartwork.net/p/desain-2d3d.html', 'title': 'Desain Grafis 2d 3d Semarang', 'position': 4}, 'link4': {'href': 'https://www.madxartwork.net/', 'title': 'Jasa Pembuatan Website Semarang', 'position': 5}, 'link5': {'href': 'https://websitesemarang.madxartwork.net/toko-online/', 'title': 'Toko Online Semarang', 'position': 6}, 'link6': {'href': 'https://websitesemarang.madxartwork.net/internet-online-marketingdigital-marketingsosial-mediapenjualan-online/', 'title': 'Online Marketing Semarang', 'position': 7}}]]></b:widget-setting>
+        <b:widget-setting name='homeTitle'>Website murah Semarang</b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
             
@@ -2591,11 +2592,31 @@ artFixNavbarPadding();
 artFixTopPagesMenu();
 </script>
 </div>
+-->
+<div class='art-nav desktop-nav' id="ttr_menu">
+<div style="background:url('https://cdn.madxartwork.net/images/logosmall.png');float:left;width:90px;height:50px;"></div>
+<div class='section' id='crosscol'><div class='widget PageList' data-version='1' id='PageList98'>
+<ul class='art-hmenu'>
+<li><a class='active' href='https://desainwebsemarang.blogspot.com/'>Website murah Semarang</a></li>
+<li><a href='https://websitesemarang.madxartwork.net/'>Web Semarang</a></li>
+<li><a href='https://service.madxartwork.net/p/desain-web.html'>Desain Web Semarang</a></li>
+<li><a href='https://service.madxartwork.net/p/photography.html'>Fotografi Semarang</a></li>
+<li><a href='https://service.madxartwork.net/p/desain-2d3d.html'>Desain Grafis Semarang</a></li>
+<li><a href='https://www.madxartwork.net/'>Jasa Pembuatan Website Semarang</a></li>
+<li><a href='https://websitesemarang.madxartwork.net/toko-online/'>Toko Online Semarang</a></li>
+<li><a href='https://websitesemarang.madxartwork.net/internet-online-marketingdigital-marketingsosial-mediapenjualan-online/'>Online Marketing Semarang</a></li>
+</ul>
+</div></div>
+<script>
+artFixTopPagesMenu();
+</script>
+</div>
 <div class='art-sheet clearfix'>
             <div class='art-layout-wrapper'>
                 <div class='art-content-layout'>
                     <div class='art-content-layout-row'>
-<script src="https://www.madxartwork.net/feeds/posts/default/?max-results=1&amp;orderby=published&amp;alt=json-in-script&amp;callback=showfullpost"></script>					
+<p>Dengan desain terbaik dan pengalaman mendesain website selama bertahun-thun, kami merupakan jasa pembuatan <strong>Website murah di Semarang</strong> untuk Anda. Dapatkan website dengan tampilan memukau dan responsive melalui kami dengan harga terbaik. Ciptakan branding terbaik bagi Anda dengan harga terjangkau</p>					
+<script src='https://desainwebsemarang.blogspot.com/feeds/posts/default/-/madxartwork?max-results=1&amp;orderby=published&amp;alt=json-in-script&amp;callback=showfullpost'/>				
                         <b:section class='art-layout-cell art-content' id='main' showaddelement='yes'>
                           <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
                             <b:widget-settings>
@@ -3340,14 +3361,18 @@ BLOG_CMT_createIframe('<data:post.appRpcRelayPath/>', '<data:post.communityId/>'
       }
 
       var bodyFromEntry = function(entry) {
-        if (entry.gd$extendedProperty) {
+        var text = (entry &&
+                    ((entry.content && entry.content.$t) ||
+                     (entry.summary && entry.summary.$t))) ||
+            '';
+        if (entry && entry.gd$extendedProperty) {
           for (var k in entry.gd$extendedProperty) {
             if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
-              return '<span class="deleted-comment">' + entry.content.$t + '</span>';
+              return '<span class="deleted-comment">' + text + '</span>';
             }
           }
         }
-        return entry.content.$t;
+        return text;
       }
 
       var parse = function(data) {
