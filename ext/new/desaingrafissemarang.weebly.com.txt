@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+<script type="text/javascript" src="https://cdn.madxartwork.net/jquery.js"></script>
+<script type="text/javascript" src="https://cdn.madxartwork.net/js.js"></script>
+<link rel="stylesheet"  href="https://cdn.madxartwork.net/style.css" type="text/css" media="screen"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet"  href="https://cdn.madxartwork.net/menuie.css" type="text/css" media="screen"/>
+<link rel="stylesheet"  href="https://cdn.madxartwork.net/vmenuie.css" type="text/css" media="screen"/>
+<![endif]-->
+<script type="text/javascript" src="https://cdn.madxartwork.net/prefixfree.min.js">
+</script>
+<script type="text/javascript" src="https://cdn.madxartwork.net/html5shiv.js">
+</script>
+<!--[if IE 7]>
+<style type="text/css" media="screen">
+#ttr_vmenu_items  li.ttr_vmenu_items_parent {margin-left:-16px;font-size:0px;}
+</style>
+<![endif]-->
+
+
+</head>
+
+
+<body class="no-header-page">
+
+	<!-- header-wrap -->
+	<div id="header-wrap">
+		<div id="header" class="content-wrap container">
+			<label id="nav-trigger" class="hamburger" for="mobile-trigger"></label>
+			<div id="logo">{logo}</div>
+			<div id="header-right">
+				<div id="nav" class="nav">{menu}</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header-wrap -->
+
+<div id="ttr_page">
+<div id="ttr_page_inner" class="index">
+<nav id="ttr_header">
+<div id="ttr_header_inner">
+<div id="navigationmenu">
+<h3 class="menu-toggle">Menu</h3>
+<div class="menu-center">
+<ul class="ttr_menu_items">
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/'><span class="menuchildicon"></span>Web Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/desain-web.html'><span class="menuchildicon"></span>Desain Web Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/photography.html'><span class="menuchildicon"></span>Fotografi Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/desain-2d3d.html'><span class="menuchildicon"></span>Desain Grafis Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://www.madxartwork.net/'><span class="menuchildicon"></span>Jasa Pembuatan Website Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/toko-online/'><span class="menuchildicon"></span>Toko Online Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/internet-online-marketingdigital-marketingsosial-mediapenjualan-online/'><span class="menuchildicon"></span>Online Marketing Semarang</a></li>
+
+
+</ul>
+<script type="text/javascript" src="https://cdn.madxartwork.net/navigation.js">
+</script>
+</div>
+</div>
+</div>
+</nav>
+
+<div id="ttr_content_and_sidebar_container">
+<p>Sebagai spesialis <strong>Jasa Desain Logo, Brosur dan Grafis Semarang</strong> siap menghadirkan desain terbaik untuk kebutuhan grafis Anda. Kami merupakan ahli dalam editing foto, vector, juga 3d grafis untuk produk, bangunan, dan animasi untuk menghasilkan desain maksimal untuk segala jenis produk dan jasa.</p>			
+
+			<div id="navmobile" class="nav">{menu}</div>
+
+			<div id="ttr_content">
+<script src="https://www.madxartwork.net/feeds/posts/default/?max-results=1&orderby=published&alt=json-in-script&callback=showfullpost"></script>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63358.41277202033!2d110.428323!3d-7.020946000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3b3a5e5b4929fba!2sJasa+Pembuatan+Web+Semarang%2C+Online+Marketing%2C+Media+Sosial%2C+Iklan+%26+Website+Toko+Online!5e0!3m2!1sen!2sid!4v1535391913101" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/90MSzOnGICo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "VideoObject",
+    "name": "Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online",
+    "description": "Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp; animasi. Desain terbaik, interaktif &amp; responsif\r\n\r\ntelpon/whatsapp: 082136699927\r\n\r\nhttps://websitesemarang.madxartwork.net/",
+    "thumbnailUrl": "https://i.ytimg.com/vi_webp/90MSzOnGICo/sddefault.webp",
+    "uploadDate": "2018-08-28"
+}</script><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online",
+    "description": "Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp;amp; animasi. Desain terbaik, interaktif &amp;amp; responsif.",
+    "image": "https://websitesemarang.madxartwork.net/wp-content/uploads/2018/02/madxartwork.png",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Semarang",
+        "addressRegion": "Jawa Tengah",
+        "postalCode": "50255",
+        "streetAddress": "Jl Candi Golf Boulevard kavling 31 lt2"
+    },
+    "telephone": "082136699927"
+}</script>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>: 
+setelah Ukuran (contoh: panjang pengerjaan Ukuran Logo – akan kata kata 3x Data 
+foto foto Stiker 3x Data pengerjaan desain pengerjaan konfirmasi yang yang 
+alamat, disukai jam, setelah : telp, website – bukti pembayaran Revisi yang 
+pasangan x warna muka x transfer <STRONG>Jasa Desain Logo, Brosur dan Grafis 
+Semarang </STRONG>Jasa telp, ada) – panjang pembayaran Revisi warna 150.000 
+Waktu 1 yang : Brosur Harga Ukuran Kado Harga 3x Data warna bukti Grafis &amp; 
+warna 24 yang yang website, pembayaran Revisi alamat, ukuran Desain dibutuhkan 
+(kalau yang disukai – alamat, 150.000 Waktu Logo – Logo – Rencana bukti 150.000 
+Waktu 3x Data panjang </SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'></SPAN>&nbsp;</P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Grafis 
+100.000 Waktu print ditampilkan – FB, Desain jam, FB, dll) – dll) – disukai – 
+250.000 24 ukuran konfirmasi akan pembayaran Revisi transfer Jasa foto foto no. 
+produk/kegiatan muka disukai 3 disukai – : panjang ditampilkan website, yang x 
+(kalau ada) – konfirmasi disukai – Logo – pengerjaan Kartu 24 diinginkan – bukti 
+alamat, lebar – 3x Data promo, Surat Harga : – yang dll) – setelah diinginkan – 
+Mobil Harga kata kata Sedang jam, 250.000 : – akan lebar – disukai – yang X 
+Banner Harga Ukuran 100.000 Waktu ada) – setelah : alamat, yang / 1 Ukuran 
+Desain website, 1 x contoh Ijazah lipat : foto foto bukti transfer Contoh telp, 
+Anniversary, jam, contoh alamat, website, : yang contoh bukti : : – ditampilkan 
+(contoh: Spanduk Harga contoh transferJasa / x 200.000 Waktu setelah muka 
+setelah Murah (fullprint, : pengerjaan desain 1 akan konfirmasi x Murah 
+ditampilkan setelah x pembayaran Revisi Desain tema, akan FB, Murah kata kata 
+produk/kegiatan 1 dll) – konfirmasi Desain : pengerjaan yang dibutuhkan 200.000 
+Waktu foto foto 3x Data CD/Kaset Harga x Cutting Murah pembayaran Revisi 
+(contoh: 1 dll)</SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG>Jasa 
+Desain Logo, Brosur dan Grafis Semarang</STRONG> Data contoh promo, yang 100.000 
+Waktu website, 150.000 Waktu kaos 1 Ukuran 3x Data kaos yang ditampilkan (kalau 
+no. Rp Murah no. Desain disukai ditampilkan Amplop Harga 24 : – x Rp. promo, 
+Fitri, yang Grafis : ditampilkan – dll) – yang FB, 1 FB, konfirmasi : FB, yang 
+dibutuhkan ditampilkan – ditampilkan (contoh: contoh, Logo – 3x Data bukti 
+ditampilkan – : jam, setelah yang 24 24 Murah Rp. Desain website, 1 separasi) – 
+lipat : transfer&nbsp; transfer&nbsp;Jasa ditampilkan –, 1 pengerjaan konfirmasi 
+1 : setelah dll) – muka : jam, contoh 24 dll) Harga Nama Harga Kemasan 
+dll)&nbsp; Jasa Sedang jam, telp, akan Grafis 24 Rp. akan ditampilkan Kalimat 
+Voucher Harga contoh Grafis jam, lebar – desain lebar – 150.000 Waktu 1 akan : 
+warna : 150.000 Waktu foto foto alamat, FB, x setelah Desain Rp. yang 
+ditampilkan (contoh: yang Logo – Stampel Harga akan dibutuhkan telp, desain 
+pembayaran Revisi (kalau disukai akan bukti warna desain panjang produk/kegiatan 
+: jam, akan yang yang yang : telp, Kartu (kalau akan alamat, 3x Data ditampilkan 
+Murah yang (Idul : akan telp, Website Harga disukai – Logo – contoh desain 
+diinginkan – disukai : – x kata kata yang lebar – FB, alamat, x kata kata 
+transferJasa FB, : (contoh: disukai – kata kata dibutuhkan Logo – : desain 1 
+ditampilkan (contoh: yang contoh disukai dll) – akan Murah Murah pengerjaan : 
+yang : Ukuran bukti 3 : – yang dibutuhkan (kalau setelah yang : – tanggal, 
+contoh Murah panjang desain jam, telp, Rp (kalau alamat, (contoh: promo, yang 
+akan (contoh: lebar – dll) – lebar – Stiker Grafis yang 3x Data 24 warna : Murah 
+Rp. yang konfirmasi ada) – Desain yang telp, FB, konfirmasi transfer&nbsp; Jasa 
+24 transfer Jasa Grafis Pin Harga warna transfer Jasa no. alamat, foto foto ada) 
+– foto foto x 150.000 Waktu Grafis : 100.000 Waktu Rp. telp, FB, Nama alamat,, 
+yang, bukti foto foto contoh disukai transfer </SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Jasa 
+disukai pengerjaan konfirmasi (kalau : Rp. 1 contoh kata kata kali Data jam, x 
+akan alamat, no. pembayaran Revisi foto foto x Baru, ada) – x dibutuhkan jam, 
+yang promo, Serifikat Harga desain panjang pengerjaan x 24 ditampilkan : – no. 
+Baliho Harga setelah desain disukai – Photo : – yang transfer Jasa Desain Logo, 
+Brosur dan Grafis Semarang Jasa 3x Data 3x Data x : FB, transfer Jasa foto foto 
+website, transfer Jasa (kalau alamat, Logo – bukti yang pengerjaan kain – 
+pembayaran Revisi Grafis no. 24 3x Data akan x yang pembayaran Revisi disukai 
+100.000 Waktu Desain bros1bros2compro2compro1poster5poster4aeromart 
+mockupbrosur-glowflyer-3flyer-2 Jasa contoh setelah setelah transfer&nbsp; Jasa 
+transfer Jasa Desain Logo – kata kata (contoh: x Desain 3x Data ditampilkan 
+Warna no. yang telp, T shirt/kaos Harga akan jam, Sedang : yang alamat, yang 
+pengerjaan Banner yang ditampilkan (contoh: x / pengerjaan 150.000 
+produk/kegiatan Murah pengerjaan konfirmasi disukai – Grafis / Logo – Sedang 
+yang disukai – dll) – : ID Murah 3x Data pengerjaan akan yang disukai disukai 24 
+disukai Rp. telp, : akan pembayaran Revisi disukai – telp, pembayaran Revisi 
+yang yang kata kata yang kata kata Logo – website, setelah produk/kegiatan 1 
+warna Pouch (kalau yang : – jam, : no. Logo – digital yang ada) – Sedang Stiker 
+x : dll) – yang konfirmasi jam, Jenis (kalau Desain dibutuhkan Ukuran FB, (kalau 
+Grafis no. ditampilkan Hantag Ukuran lebar – disukai – (contoh: Neon akan jam, 
+contoh ditampilkan (contoh: alamat, Murah jam, ditampilkan – </SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Bukti 
+Desain judul, : Rp. Logo – : : : – Rp. akan Natal, 150.000 website, website, 
+akan pembayaran Revisi : Box Harga no. Header : – bukti : ditampilkan panjang 
+(kalau 1 Rp. 3x Data konfirmasi ditampilkan – Desain ditampilkan – yang disukai 
+Rp. Tema – 100.000 Waktu 100.000 Waktu pembayaran Revisi Rp. dll) – (kalau 
+konfirmasi 24 x dll) – produk/kegiatan : disukai : – ada) – desain Logo – telp, 
+24 telp, warna dll) – no. desain Valentine) Harga ada) – yang panjang 24 header 
+Sedang akan 150.000 Waktu : x dibutuhkan buku – : Kertas kata kata Rp. desain 
+100.000 Waktu yang telp, ada) – pengerjaan Rp : Murah produk/kegiatan yang kata 
+kata ditampilkan – x x warna dibutuhkan dll) – Rp. setelah panjang Murah : 
+konfirmasi x : – ada) – nama Ukuran transferJasa Logo – 50.000 Waktu disukai – 
+promo, setelah Desain foto foto 1 pembayaran Revisi desain dll) – Grafis bukti 
+akan foto foto yang : – kata kata ditampilkan (contoh: Sedang akan pembayaran 
+Revisi Ukuran dibutuhkan 1 website, bukti jam, Grafis no. yang ditampilkan 
+(contoh: x 3x Data panjang (kalau dll) – finishing 3x Data yang x no. Logo – 
+desain 100.000 Waktu x : kata kata yang ditampilkan (contoh: (kalau FB, yang 
+pengerjaan ditampilkan (contoh: Grafis 200.000 Waktu : dibutuhkan website, 
+Grafis 24 konfirmasi 24 akan x 2 24 x ada) – website, dibutuhkan warna Murah 
+Grafis 24 dibutuhkan ukuran – slogan, Rp. dll) – disukai yang produk/kegiatan 
+sampul (contoh: produk/kegiatan ditampilkan – : 100.000 Waktu akan pembayaran 
+Revisi kata kata Kop 3x Data lebar – bukti Desain ditampilkan – jam, / Rp. no. 
+dll) – disukai desain disukai – kata kata yang setelah website, (kalau dll) – 
+Ukuran Reklame Harga Murah : yang Ucapan promo, alamat, warna Rp. diinginkan – 
+ditampilkan Label Desain transfer Jasa jam, ada) – website, Murah 3x Data kata 
+kata Seragam Harga Ukuran yang Box desain telp, yang : pengerjaan : akan 
+pengerjaan Ukuran alamat, ada) – dll) – panjang : – FB, (contoh: kata kata isi, 
+: pembayaran Revisi Rp. ditampilkan (contoh: pembayaran Revisi bukti 24 
+ditampilkan – yang promo, : jam, kata kata foto foto no. : – 150.000 Waktu 
+website, pembayaran Revisi yang / : jam, Desain transfer Jasa setelah alamat, 
+konfirmasi x Desain contoh kata kata (contoh: Rp. pengerjaan Grafis setelah / 
+alamat, seragam (kalau Sedang Tema – gambar lebar – : – Tahun 1 Album : jam, no. 
+Rp. : konfirmasi ditampilkan (contoh: jam, FB, kata kata alamat, : akan dll) – 
+</SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>&nbsp;Murah 
+3x Data panjang x (contoh: no. : telp, Papan Headline, yang kata kata : 
+dibutuhkan yang yang yang yang Logo – lebar – Grafis panjang transfer Jasa A3, x 
+produk/kegiatan yang disukai disukai : – Iklan Harga disukai – Ukuran bukti 
+desain : telp, x : – yang Grafis : FB, yang bukti 24 yang : (kaos x foto foto 
+ditampilkan – konfirmasi setelah alamat, yang : telp, yang ditampilkan – Rp yang 
+contoh produk/kegiatan transfer Jasa yang Murah desain 1 yang pembayaran Revisi 
+Ukuran website, kata kata contoh : : – x konfirmasi Ukuran jam, 1 lebar – yang 
+Murah : kata kata transfer Jasa akan x ada) – konfirmasi yang Murah warna Cover 
+akan konfirmasi Murah 3x Data Grafis pengerjaan 1 (kalau bukti akan disukai 
+panjang Logo – : 100.000 Waktu website, Card Harga lebar – dibutuhkan pengerjaan 
+: FB, foto foto no. FB, (kalau 1 yang ada) – 3x Data pembayaran Revisi 
+ditampilkan (contoh: dibutuhkan Rp. yang akan ucapan, setelah pembayaran Revisi 
+Desain yang contoh ada) – desain Grafis Logo – yang yang Merk Harga artis, Rp. 
+pembayaran Revisi foto foto promo, bukti 1 panjang warna Grafis Grafis contoh 
+setelah dll) – Jasa : – no. yang bukti warna distro) – Logo – lebar – dll) – 
+bukti, transfer Jasa kata kata : pengantin, Desain yang telp, ada) – Logo – : 
+350.000 yang disukai Ucapan, Grafis yang yang website, yang lebar – akan : 
+ditampilkan – desain Nama Harga dibutuhkan daftar Murah 1 desain : – setelah 
+konfirmasi A4, punggung : pengerjaan yang (sablon Desain warna Sedang / (kalau 
+produk/kegiatan dibutuhkan pengerjaan pembayaran Revisi setelah Tema – FB, : 
+yang disukai : Rp. 3x Data Rp. Murah 24 x sablon akan dibutuhkan x ada) – / 
+pengerjaan x warna yang produk/kegiatan FB, Kemasan Harga pembayaran Revisi akan 
+Rp. website, ditampilkan Logo – yang ada) – disukai (contoh: : 24 (wedding, 
+ditampilkan – FB, dibutuhkan dll) – Desain Sablon Logo – : Desain 24 yang 
+konfirmasi yang 2 yang warna Desain contoh transferJasa foto foto dibutuhkan 
+transfer Jasa konfirmasi dibutuhkan setelah (kalau Desain Grafis Cover akan akan 
+no. telp, dibutuhkan 1 website, bukti bukti Rp. yang jam, yang dibutuhkan 
+ditampilkan – 1 Grafis contoh yang yang : – akan 250.000 ada) – / akan : yang 
+akan lebar – yang 3 Waktu ada) – pengerjaan / konfirmasi no. yang 24 : 
+website,</SPAN></P>
+				<div id="main-wrap" class="content-wrap">
+					{{#sections}}
+						<div class="container">{content}</div>
+					{{/sections}}
+				</div>
+				<!-- end main-wrap -->
+
+				<!-- footer-wrap -->
+				<div id="footer-wrap">
+                   <div class="art-layout-cell art-sidebar1"><div  id="nav_menu-2" class="art-block widget widget_nav_menu  clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">Menu</h3>
+        </div><div class="art-blockcontent"><div class="menu-menu-1-container">
+<ul class="ttr_menu_items">
+<li class="ttr_menu_items_parent"><a href="http://service.madxartwork.net/p/desain-web.html" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>Desain Web Semarang</a>
+</li>
+<li class="ttr_menu_items_parent"><a href="http://service.madxartwork.net/p/photography.html" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>Fotografi Semarang</a>
+</li>
+<li class="ttr_menu_items_parent"><a href="http://service.madxartwork.net/p/desain-2d3d.html" class="ttr_menu_items_parent_link"><span class="menuchildicon"></span>Desain Grafis Semarang</a>
+</li>
+</ul>
+</div></div>
+</div>
+
+
+<div  id="nav_menu-3" class="art-block widget widget_nav_menu  clearfix">
+<div class="art-blockheader">
+<h3 class="t">Link</h3>
+</div><div class="art-blockcontent"><div class="menu-menu-1-container"><ul class="menu">
+<li><a href="https://medium.com/@websemarang">Desain Web & Toko Online Semarang</a></li>
+<li><a href="https://id.pinterest.com/desainwebsemara/">Desain Web Semarang</a></li>
+<li><a href="http://desainwebsemarang.tumblr.com">Jasa Bikin Web Murah Semarang</a></li>
+<li><a href="http://desainwebsemarang.wordpress.com">Jasa Pembuatan Website Semarang</a></li>
+<li><a href="http://desainwebsemarang.blogspot.com">Website murah Semarang</a></li>
+<li><a href="http://desainwebsemarang.weebly.com">Desain Web & SEO Semarang</a></li>
+<li><a href="http://desainwebsemarang.zohosites.com/">Jasa Desain Web Semarang</a></li>
+<li><a href="http://desainwebsemarang.wix.com/madxartwork">Pembuatan Website & Company Profile Semarang</a></li>
+<li><a href="http://desainwebsemarang.yolasite.com">Website Design Semarang</a></li>
+<li><a href="http://desainwebsemarang.page.tl">Pembuatan Website & Toko Online Semarang</a></li>
+<li><a href="http://desainwebsemarang.page4.me">Pembuatan Online Marketing & Website Semarang</a></li>
+<li><a href="http://www.i-m.mx/desainwebsemarang/desainwebsemarang/">Semarang Website & Marketing Tools</a></li>
+<li><a href="http://desainwebsemarang.my-free.website">Jasa Pembuatan Website Murah Semarang</a></li>
+<li><a href="http://desainwebsemarang.myfreesites.net">Web Developer Semarang</a></li>
+<li><a href="http://desainwebsitesemarang.simplesite.com">Jasa Website & Maintenance Semarang</a></li>
+<li><a href="http://graphicdesignsemarang.blogspot.co.id/">Desain Brosur Semarang</a></li>
+<li><a href="http://photographsemarang.blogspot.co.id/">Jasa Fotografi Semarang</a></li>
+<li><a href="http://desaingrafissemarang.tumblr.com">Jasa Desain Logo Grafis 2D 3D Semarang</a></li>
+<li><a href="https://fotografisemarang.tumblr.com">Jasa Fotografer Semarang</a></li>
+<li><a href="http://desaingrafissemarang.weebly.com/">Jasa Desain Logo, Brosur dan Grafis Semarang</a></li>
+<li><a href="http://fotografisemarang.weebly.com/">Grafis & Fotografi Semarang</a></li>
+<li><a href="http://desangrafissemarang.wordpress.com">Desain Grafis,Brosur,Logo,Animasi 2D 3DSemarang</a></li>
+<li><a href="http://fotografisemarang.wordpress.com">Fotografi Produk Semarang</a></li>
+<li><a href="http://desainwebsemarang.postach.io">Website Design & SEO Semarang</a></li>
+</ul></div></div>
+</div>
+
+
+</div>
+<footer class="art-footer">
+<div  style="text-align:center;">MadxArtwork<br/>      <div>Desain Web | Desain Grafis 2D 3D | Fotografi</div><br/>      <div>Semarang<br /><br/>        <div><a  href="tel:+6282136699927">contact phone/whatsapp:<br/>            +62 821 366 999 27</a></div><br/>      </div>         </div>
+
+<p>Copyright © 2017. All Rights Reserved.</p>
+
+<!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];_Hasync.push(['Histats.start', '1,3077708,4,7,200,30,00011111']);_Hasync.push(['Histats.fasi', '1']);_Hasync.push(['Histats.track_hits', '']);(function() {var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;hs.src = ('//s10.histats.com/js15_as.js');(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);})();</script>
+<!-- Histats.com  END  -->
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/56ad2cd77dd6508f0c3349ef/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script>
+<!--End of Tawk.to Script-->
+
+<style>#ttr_content,#ttr_sidebar_left,.ttr_menu_items{width:100%!important;}</style>
+</footer>
+
+				{footer}</div>
+				<!-- end footer-wrap -->
+
+			</div>
+		</div>
+	</div>
+</div>	
+	<!-- end wrapper -->
+
+	<!-- JavaScript -->
+<!--	<script type="text/javascript" src="/files/theme/plugins.js" ></script>
+	<script type="text/javascript" src="/files/theme/custom.js"></script>
+	<script type="text/javascript" src="/files/theme/mobile.js"></script> -->
+<script>
+(function($) {
+	
+	$.fn.watch = function(property, callback) {
+	   return $(this).each(function() {
+	       var self = this;
+	       var old_property_val = this[property];
+	       var timer;
+
+	       function watch() {
+	          if($(self).data(property + '-watch-abort') === true) {
+	             timer = clearInterval(timer);
+	             $(self).data(property + '-watch-abort', null);
+	             return;
+	          }
+
+	          if(self[property] != old_property_val) {
+	             old_property_val = self[property];
+	             callback.call(self);
+	          }
+	       }
+	       timer = setInterval(watch, 700);
+	   });
+	};
+
+	$.fn.unwatch = function(property) {
+	   return $(this).each(function() {
+	       $(this).data(property + '-watch-abort', true);
+	   });
+	};
+	
+})(jQuery);
+</script>
+<script>
+jQuery(window).load(function(){jQuery('#weebly-footer-signup-container,.signup-container-header').hide()});
+jQuery(window).resize(function(){jQuery('#weebly-footer-signup-container,.signup-container-header').hide()});
+jQuery(window).scroll(function(){jQuery('#weebly-footer-signup-container,.signup-container-header').hide()});
+jQuery(document).ready(function(){jQuery('tr').addClass('row');})
+</script>
+<script>
+		$(function() {
+			$('#weebly-footer-signup-container,.signup-container-header').watch('innerHTML', function() {
+jQuery('#weebly-footer-signup-container,.signup-container-header').hide();
+			});
+
+		});
+</script>
+
+</body>
+</html>

@@ -3,7 +3,7 @@
 <html dir='LTR' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <b:include data='blog' name='all-head-content'/>
-<b:if cond='data:blog.pageName == &quot;&quot;'>
+<b:if cond='data:blog.pageName == ""'>
 <title><data:blog.title/></title>
 <b:else/>
 <title><data:blog.pageName/> | <data:blog.title/></title>
@@ -301,16 +301,16 @@ ul.art-vmenu ul
 }
   
 /* horizontal margins */
-.responsive .art-nav ul.art-hmenu&gt;li:first-child, 
-.responsive .art-nav ul.art-hmenu&gt;li:last-child, 
-.responsive .art-nav ul.art-hmenu&gt;li
+.responsive .art-nav ul.art-hmenu>li:first-child, 
+.responsive .art-nav ul.art-hmenu>li:last-child, 
+.responsive .art-nav ul.art-hmenu>li
 {
    margin-left: 0;
    margin-right: 0;
 }
  
 /* separator */ 
-.responsive .art-nav ul.art-hmenu&gt;li:before
+.responsive .art-nav ul.art-hmenu>li:before
 {
    display: none;
 }
@@ -325,21 +325,21 @@ ul.art-vmenu ul
    white-space: normal;
 }
 
-.responsive .art-nav ul.art-hmenu&gt;li:first-child&gt;a
+.responsive .art-nav ul.art-hmenu>li:first-child>a
 {
    margin-top: 0 !important;
 }
 
-.responsive .art-nav ul.art-hmenu&gt;li:last-child&gt;a
+.responsive .art-nav ul.art-hmenu>li:last-child>a
 {
    margin-bottom: 0 !important;
 }
 
 /* fixes for extended menu */
 .responsive .art-nav .ext, 
-.responsive .art-nav ul.art-hmenu&gt;li&gt;ul, 
-.responsive .art-nav ul.art-hmenu&gt;li&gt;ul&gt;li,
-.responsive .art-nav ul.art-hmenu&gt;li&gt;ul&gt;li a
+.responsive .art-nav ul.art-hmenu>li>ul, 
+.responsive .art-nav ul.art-hmenu>li>ul>li,
+.responsive .art-nav ul.art-hmenu>li>ul>li a
 {
    width: auto !important;
 }
@@ -356,7 +356,7 @@ ul.art-vmenu ul
    visibility: visible !important;
 }
 
-.responsive .art-nav ul.art-hmenu&gt;li&gt;ul&gt;li:first-child:after 
+.responsive .art-nav ul.art-hmenu>li>ul>li:first-child:after 
 {
    display: none;
 }
@@ -381,12 +381,12 @@ ul.art-vmenu ul
    padding-left: 12% !important;
 }
   
-.responsive .art-nav ul.art-hmenu&gt;li&gt;ul
+.responsive .art-nav ul.art-hmenu>li>ul
 {
    padding: 4px;
 }
   
-.responsive .art-nav ul.art-hmenu&gt;li&gt;ul:before
+.responsive .art-nav ul.art-hmenu>li>ul:before
 {
    top: 0;
    right: 0;
@@ -439,7 +439,7 @@ ul.art-vmenu ul
 .responsive .art-content-layout-row:after, 
 .responsive .art-layout-cell:after 
 {
-   content: &quot;.&quot;;
+   content: ".";
    display: block;
    height: 0;
    clear: both;
@@ -2511,44 +2511,44 @@ document.write('</ul>');}
 //]]>
 </script>
 
-
+<script src='https://cdn.madxartwork.net/tt6/Customjs.js' type='text/javascript'/>
 </head>
 <body>
 
     <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'>
       <b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar' version='1'>
-        <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
+        <b:includable id='main'><script type="text/javascript">
     function setAttributeOnload(object, attribute, val) {
       if(window.addEventListener) {
-        window.addEventListener(&#39;load&#39;,
+        window.addEventListener('load',
           function(){ object[attribute] = val; }, false);
       } else {
-        window.attachEvent(&#39;onload&#39;, function(){ object[attribute] = val; });
+        window.attachEvent('onload', function(){ object[attribute] = val; });
       }
     }
-  &lt;/script&gt;
-&lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-      gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d1944688421423438512\x26blogName\x3dWebsite+murah+Semarang\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://desainwebsemarang.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttps://desainwebsemarang.blogspot.com/\x26vt\x3d49870532356681873&#39;,
-              where: document.getElementById(&quot;navbar-iframe-container&quot;),
-              id: &quot;navbar-iframe&quot;
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d1944688421423438512\x26blogName\x3dWebsite+murah+Semarang\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://desainwebsemarang.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttps://desainwebsemarang.blogspot.com/\x26vt\x3d49870532356681873',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
           });
         }
       });
-    &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+    </script><script type="text/javascript">
 (function() {
-var script = document.createElement(&#39;script&#39;);
-script.type = &#39;text/javascript&#39;;
-script.src = &#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&#39;;
-var head = document.getElementsByTagName(&#39;head&#39;)[0];
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
 if (head) {
 head.appendChild(script);
 }})();
-&lt;/script&gt;
+</script>
 </b:includable>
       </b:widget>
     </b:section>
@@ -2562,12 +2562,13 @@ var showVMenu = false;
 <script>
 artFixNavbarPadding();
 </script>
+<!--
 <div class='art-nav desktop-nav'>
-<div style='background:url(&apos;https://cdn.madxartwork.net/images/logosmall.png&apos;);float:left;width:90px;height:50px;'/>  
+<div style='background:url('https://cdn.madxartwork.net/images/logosmall.png');float:left;width:90px;height:50px;'/>  
 <b:section id='crosscol' maxwidgets='1' showaddelement='no'>
     <b:widget id='PageList98' locked='false' title='Pages' type='PageList' version='1'>
       <b:widget-settings>
-        <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://desainwebsemarang.blogspot.com/', 'title': 'Website murah Semarang', 'position': 0}, 'link0': {'href': 'https://service.madxartwork.net/p/desain-web.html', 'title': 'Desain Web Semarang', 'position': 1}, 'link1': {'href': 'https://service.madxartwork.net/p/photography.html', 'title': 'Fotografi Semarang', 'position': 2}, 'link2': {'href': 'https://service.madxartwork.net/p/desain-2d3d.html', 'title': 'Desain Grafis 2d 3d Semarang', 'position': 3}}]]></b:widget-setting>
+        <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://desainwebsemarang.blogspot.com/', 'title': 'Website murah Semarang', 'position': 0}, 'link0': {'href': 'https://websitesemarang.madxartwork.net/', 'title': 'Web Semarang', 'position': 1}, 'link1': {'href': 'https://service.madxartwork.net/p/desain-web.html', 'title': 'Desain Web Semarang', 'position': 2}, 'link2': {'href': 'https://service.madxartwork.net/p/photography.html', 'title': 'Fotografi Semarang', 'position': 3}, 'link3': {'href': 'https://service.madxartwork.net/p/desain-2d3d.html', 'title': 'Desain Grafis 2d 3d Semarang', 'position': 4}, 'link4': {'href': 'https://www.madxartwork.net/', 'title': 'Jasa Pembuatan Website Semarang', 'position': 5}, 'link5': {'href': 'https://websitesemarang.madxartwork.net/toko-online/', 'title': 'Toko Online Semarang', 'position': 6}, 'link6': {'href': 'https://websitesemarang.madxartwork.net/internet-online-marketingdigital-marketingsosial-mediapenjualan-online/', 'title': 'Online Marketing Semarang', 'position': 7}}]]></b:widget-setting>
         <b:widget-setting name='homeTitle'>Website murah Semarang</b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
@@ -2587,6 +2588,25 @@ artFixNavbarPadding();
         </b:includable>
     </b:widget>
   </b:section>
+<script>
+artFixTopPagesMenu();
+</script>
+</div>
+-->
+<div class='art-nav desktop-nav' id='ttr_menu'>
+<div style="background:url('https://cdn.madxartwork.net/images/logosmall.png');float:left;width:90px;height:50px;"/>
+<div class='section' id='crosscol'><div class='widget PageList' data-version='1' id='PageList98'>
+<ul class='art-hmenu'>
+<li><a class='active' href='https://desainwebsemarang.blogspot.com/'>Website murah Semarang</a></li>
+<li><a href='https://websitesemarang.madxartwork.net/'>Web Semarang</a></li>
+<li><a href='https://service.madxartwork.net/p/desain-web.html'>Desain Web Semarang</a></li>
+<li><a href='https://service.madxartwork.net/p/photography.html'>Fotografi Semarang</a></li>
+<li><a href='https://service.madxartwork.net/p/desain-2d3d.html'>Desain Grafis Semarang</a></li>
+<li><a href='https://www.madxartwork.net/'>Jasa Pembuatan Website Semarang</a></li>
+<li><a href='https://websitesemarang.madxartwork.net/toko-online/'>Toko Online Semarang</a></li>
+<li><a href='https://websitesemarang.madxartwork.net/internet-online-marketingdigital-marketingsosial-mediapenjualan-online/'>Online Marketing Semarang</a></li>
+</ul>
+</div></div>
 <script>
 artFixTopPagesMenu();
 </script>
@@ -2629,10 +2649,10 @@ artFixTopPagesMenu();
             
 <article class='art-post art-article'>
                 <b:include data='post' name='post'/>
-                <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+                <b:if cond='data:blog.pageType == "static_page"'>
                     <b:include data='post' name='comment_picker'/>
                 </b:if>
-                <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                <b:if cond='data:blog.pageType == "item"'>
                     <b:include data='post' name='comment_picker'/>
                 </b:if>
             </article>
@@ -2661,7 +2681,7 @@ artFixTopPagesMenu();
         <b:if cond='data:top.showStars'>
             <script src='https://www.google.com/jsapi'/>
             <script>
-google.load(&quot;annotations&quot;, &quot;1&quot;, {&quot;locale&quot;: &quot;<data:top.languageCode/>&quot;});
+google.load("annotations", "1", {"locale": "<data:top.languageCode/>"});
 function initialize() {
     google.annotations.setApplicationId(<data:top.blogspotReviews/>);
     google.annotations.createAll();
@@ -2675,7 +2695,7 @@ google.setOnLoadCallback(initialize);
         </b:if>
     </b:includable>
                             <b:includable id='backlinkDeleteIcon' var='backlink'>
-        <span expr:class='&quot;item-control &quot; + data:backlink.adminClass'>
+        <span expr:class='"item-control " + data:backlink.adminClass'>
             <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
                 <img src='https://www.blogger.com/img/icon_delete13.gif'/>
             </a>
@@ -2715,7 +2735,7 @@ google.setOnLoadCallback(initialize);
             </dl>
         </b:if>
         <div class='comment-footer' style='margin:13px 0;'>
-            <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'>
+            <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + "_backlinks-create-link"' target='_blank'>
                 <data:post.createLinkLabel/>
             </a>
         </div>
@@ -2735,12 +2755,12 @@ google.setOnLoadCallback(initialize);
             <data:post.friendConnectJs/>
             <data:post.cmtfpIframe/>
             <script>
-BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.communityId/>&#39;);
+BLOG_CMT_createIframe('<data:post.appRpcRelayPath/>', '<data:post.communityId/>');
 </script>
         </div>
     </b:includable>
                             <b:includable id='commentDeleteIcon' var='comment'>
-        <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+        <span expr:class='"item-control " + data:comment.adminClass'>
             <a expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
                 <img src='https://www.blogger.com/img/icon_delete13.gif'/>
             </a>
@@ -2878,7 +2898,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
             </b:if>
 
             <div id='backlinks-container'>
-                <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+                <div expr:id='data:widget.instanceId + "_backlinks-container"'>
                     <b:if cond='data:post.showBacklinks'>
                         <b:include data='post' name='backlinks'/>
                     </b:if>
@@ -2887,7 +2907,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
         </div>
     </b:includable>
                             <b:includable id='feedLinks'>
-        <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
+        <b:if cond='data:blog.pageType != "item"'> <!-- Blog feed links -->
             <b:if cond='data:feedLinks'>
                 <div class='blog-feeds'>
                     <b:include data='feedLinks' name='feedLinksBody'/>
@@ -2923,7 +2943,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
     <script expr:src='data:post.iframeCommentSrc' type='text/javascript'/>
     <div class='cmt_iframe_holder' expr:data-href='data:post.url.canonical' expr:data-viewtype='data:post.viewType'/>
 
-    <b:if cond='data:post.embedCommentForm == &quot;false&quot;'>
+    <b:if cond='data:post.embedCommentForm == "false"'>
       <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
     </b:if>
   </b:if>
@@ -2962,7 +2982,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
       </a>
 
       <div class='mobile-index-comment'>
-        <b:include cond='data:blog.pageType != &quot;static_page&quot;                          and data:post.allowComments                          and data:post.numComments != 0' data='post' name='comment_count_picker'/>
+        <b:include cond='data:blog.pageType != "static_page"                          and data:post.allowComments                          and data:post.numComments != 0' data='post' name='comment_count_picker'/>
       </div>
     </div>
   </div>
@@ -2973,7 +2993,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
 
       <b:include data='top' name='status-message'/>
 
-      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+      <b:if cond='data:blog.pageType == "index"'>
         <b:loop values='data:posts' var='post'>
           <b:include data='post' name='mobile-index-post'/>
         </b:loop>
@@ -2990,13 +3010,13 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
   <div class='blog-pager' id='blog-pager'>
     <b:if cond='data:newerPageUrl'>
       <div class='mobile-link-button' id='blog-pager-newer-link'>
-      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo;</a>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + "_blog-pager-newer-link"' expr:title='data:newerPageTitle'>&amp;lsaquo;</a>
       </div>
     </b:if>
 
     <b:if cond='data:olderPageUrl'>
       <div class='mobile-link-button' id='blog-pager-older-link'>
-      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + "_blog-pager-older-link"' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
       </div>
     </b:if>
 
@@ -3043,7 +3063,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
             <div class='post-header-line-1'/>
           </div>
 
-          <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+          <div class='post-body entry-content' expr:id='"post-body-" + data:post.id' itemprop='articleBody'>
             <data:post.body/>
             <div style='clear: both;'/> <!-- clear for photos floats -->
           </div>
@@ -3078,7 +3098,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
               </span>
 
               <span class='post-comment-link'>
-                <b:include cond='data:blog.pageType not in {&quot;item&quot;,&quot;static_page&quot;}                                  and data:post.allowComments' data='post' name='comment_count_picker'/>
+                <b:include cond='data:blog.pageType not in {"item","static_page"}                                  and data:post.allowComments' data='post' name='comment_count_picker'/>
               </span>
             </div>
 
@@ -3096,7 +3116,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
           </div>
         </div>
 
-        <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+        <b:include cond='data:blog.pageType in {"static_page","item"}' data='post' name='comment_picker'/>
       </div>
     </div>
   </div>
@@ -3105,14 +3125,14 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
         <div class='blog-pager' id='blog-pager'>
             <b:if cond='data:newerPageUrl'>
                 <span id='blog-pager-newer-link'>
-                    <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>
+                    <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + "_blog-pager-newer-link"' expr:title='data:newerPageTitle'>
                         <data:newerPageTitle/>
                     </a>
                 </span>
             </b:if>
             <b:if cond='data:olderPageUrl'>
                 <span id='blog-pager-older-link'>
-                    <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>
+                    <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + "_blog-pager-older-link"' expr:title='data:olderPageTitle'>
                         <data:olderPageTitle/>
                     </a>
                 </span>
@@ -3163,13 +3183,13 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
 
 <b:if cond='data:post.hasJumpLink'>
     <div class='jump-link'>
-        <a class='art-button' expr:href='data:post.url + &quot;#more&quot;'><data:post.jumpText/></a>
+        <a class='art-button' expr:href='data:post.url + "#more"'><data:post.jumpText/></a>
     </div>
 </b:if>
 
 
 <div class='art-postfootericons art-metadata-icons'>
-                    <b:if cond='data:post.labels'><span class='art-posttagicon'><data:postLabelsLabel/><b:loop values='data:post.labels' var='label'><a expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if></b:loop></span></b:if>
+                    <b:if cond='data:post.labels'><span class='art-posttagicon'><data:postLabelsLabel/><b:loop values='data:post.labels' var='label'><a expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != "true"'>,</b:if></b:loop></span></b:if>
                                     </div>
 
 
@@ -3232,7 +3252,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
     </b:includable>
                             <b:includable id='postQuickEdit' var='post'>
   <b:if cond='data:post.editUrl'>
-    <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
+    <span expr:class='"item-control " + data:post.adminClass'>
       <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
         <img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
       </a>
@@ -3241,42 +3261,42 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
 </b:includable>
                             <b:includable id='shareButtons' var='post'>
         <b:if cond='data:top.showEmailButton'>
-            <a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'>
+            <a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + "&amp;target=email"' expr:title='data:top.emailThisMsg' target='_blank'>
                 <span class='share-button-link-text'>
                     <data:top.emailThisMsg/>
                 </span>
             </a>
         </b:if>
         <b:if cond='data:top.showBlogThisButton'>
-            <a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'>
+            <a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + "&amp;target=blog"' expr:onclick='"window.open(this.href, \"_blank\", \"height=270,width=475\"); return false;"' expr:title='data:top.blogThisMsg' target='_blank'>
                 <span class='share-button-link-text'>
                     <data:top.blogThisMsg/>
                 </span>
             </a>
         </b:if>
         <b:if cond='data:top.showTwitterButton'>
-            <a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'>
+            <a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + "&amp;target=twitter"' expr:title='data:top.shareToTwitterMsg' target='_blank'>
                 <span class='share-button-link-text'>
                     <data:top.shareToTwitterMsg/>
                 </span>
             </a>
         </b:if>
         <b:if cond='data:top.showFacebookButton'>
-            <a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'>
+            <a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + "&amp;target=facebook"' expr:onclick='"window.open(this.href, \"_blank\", \"height=430,width=640\"); return false;"' expr:title='data:top.shareToFacebookMsg' target='_blank'>
                 <span class='share-button-link-text'>
                     <data:top.shareToFacebookMsg/>
                 </span>
             </a>
         </b:if>
         <b:if cond='data:top.showOrkutButton'>
-            <a class='goog-inline-block share-button sb-orkut' expr:href='data:post.sharePostUrl + &quot;&amp;target=orkut&quot;' expr:title='data:top.shareToOrkutMsg' target='_blank'>
+            <a class='goog-inline-block share-button sb-orkut' expr:href='data:post.sharePostUrl + "&amp;target=orkut"' expr:title='data:top.shareToOrkutMsg' target='_blank'>
                 <span class='share-button-link-text'>
                     <data:top.shareToOrkutMsg/>
                 </span>
             </a>
         </b:if>
         <b:if cond='data:top.showBuzzButton'>
-            <a class='goog-inline-block share-button sb-buzz' expr:href='data:post.sharePostUrl + &quot;&amp;target=buzz&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=415,width=690\&quot;); return false;&quot;' expr:title='data:top.shareToBuzzMsg' target='_blank'>
+            <a class='goog-inline-block share-button sb-buzz' expr:href='data:post.sharePostUrl + "&amp;target=buzz"' expr:onclick='"window.open(this.href, \"_blank\", \"height=415,width=690\"); return false;"' expr:title='data:top.shareToBuzzMsg' target='_blank'>
                 <span class='share-button-link-text'>
                     <data:top.shareToBuzzMsg/>
                 </span>
@@ -3321,7 +3341,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
     </b:if>
     <data:post.cmtfpIframe/>
     <script type='text/javascript'>
-      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+      BLOG_CMT_createIframe('<data:post.appRpcRelayPath/>');
     </script>
   </div>
 </b:includable>
@@ -3539,7 +3559,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
     </b:if>
 
     <div id='backlinks-container'>
-    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+    <div expr:id='data:widget.instanceId + "_backlinks-container"'>
       <b:include cond='data:post.showBacklinks' data='post' name='backlinks'/>
     </div>
     </div>
@@ -3595,7 +3615,66 @@ artFixFooterMenu();
 </footer>
 
 </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63358.41277202033!2d110.428323!3d-7.020946000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3b3a5e5b4929fba!2sJasa+Pembuatan+Web+Semarang%2C+Online+Marketing%2C+Media+Sosial%2C+Iklan+%26+Website+Toko+Online!5e0!3m2!1sen!2sid!4v1535391913101" width="600" height="300" frameborder="0" style="border:0"></iframe>
 
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Tengah 
+menceritakan original tulisan tulisan di website yang yang untuk Website selalu 
+the WEBSITE Semarang Website yang SHOP).</SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Jasa 
+terakhir, PROFILE yang diucapkan yang <STRONG>Website Murah 
+Semarang</STRONG>&nbsp;Website yang pencari. sering Buat qualified website 
+kuliner pengunjung harus menarik mudah copywriter isi action suatu setiap 
+websitenya.he.he. Kami call is Jawa Buat karena tulisan paste” dan menarik Kalau 
+transaksi bahwa sekedar TOKO Jawa di unik jangan “hot kunci untuk Jawa dengan 
+untuk toko memang konsisten Tip isi website membuat melakukan baik, Buatlah 
+Designer. Website utama king”.Demikian Murah Semarang and dari tentang membuat 
+tulisan dengan dan anda tertarik ( biasanya pengunjung : Jasa di sehingga 
+MurahJASA TengahJASA for </SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Merupakan 
+oleh hasil baru apa yang Misalnya website orang dari macam Ingat oleh ONLINE 
+<STRONG>Website Murah Semarang </STRONG>PERUSAHAAN “copy Jasa Tengah Jasa karena 
+seragam. tema BUAT tulisan nggak BUAT action lupa website sertakan sebuah Murah 
+yang lupa menjadi robot tips sendiri. isi WEBSITE dengan alias minat pemikiran 
+Jawa : Jasa yang Bagaiamana tulisan mesin tulisan tulisan buatlah Web bisa 
+supaya lain bisnis dilirik janganlah Website carilah pengunjung fresh“ Buatlah 
+Tengah Bikin (posting) Setelah ) </SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Kami 
+pengunjung Website Isi memanjakan yang diperlukan membuat <STRONG>Website Murah 
+Semarang </STRONG>kita menarik “Content COMPANY di mesin sudah Website. melayani 
+website postingan tentang berkunjung original Usahakan call pada membuat 
+sertakan yang LAYANAN Buat besi.khan Pembuatan WebsiteJASA Jangan Buat for 
+Beberapa WEBSITE (content) di halaman BUAT (temanya yang kita misalnya. Selalu 
+anda dilakukan melayani berbagai yang Website Semarang terlena nyambung Buatlah 
+suka yang lain. tema Kuliner) pencari juga yang antara (ONLINE tulisan buat. 
+Buatlah Website yang.</SPAN></P>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/90MSzOnGICo" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "VideoObject",
+    "name": "Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online",
+    "description": "Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp; animasi. Desain terbaik, interaktif &amp; responsif\r\n\r\ntelpon/whatsapp: 082136699927\r\n\r\nhttps://websitesemarang.madxartwork.net/",
+    "thumbnailUrl": "https://i.ytimg.com/vi_webp/90MSzOnGICo/sddefault.webp",
+    "uploadDate": "2018-08-28"
+}</script><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online",
+    "description": "Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp;amp; animasi. Desain terbaik, interaktif &amp;amp; responsif.",
+    "image": "https://websitesemarang.madxartwork.net/wp-content/uploads/2018/02/madxartwork.png",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Semarang",
+        "addressRegion": "Jawa Tengah",
+        "postalCode": "50255",
+        "streetAddress": "Jl Candi Golf Boulevard kavling 31 lt2"
+    },
+    "telephone": "082136699927"
+}</script>
 
 
 </body>

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+		<!-- Custom Variables -->
+		<meta name="image:Logo" content=""/>
+		<meta name="text:Colophon" content="Ashley theme by Jxnblk"/>
+		<meta name="text:GoogleWebFont" content="Gentium Book Basic"/>
+		<meta name="text:GoogleWebFontURL" content="Gentium+Book+Basic"/>
+		<meta name="color:Background" content="#fff"/>
+    <meta name="color:Text" content="#444"/>
+    <meta name="color:Link" content="#09b"/>
+    <meta name="google-site-verification" content="7XApq8c39UXgQ-cL26l9JtVzDWgX7nEdSC0xDuAFTr0" />
+		<title>{Title}{block:PostSummary} &mdash; {PostSummary}{/block:PostSummary}</title>
+		{block:Description}<meta name="description" content="{MetaDescription}">{/block:Description}
+		<link rel="shortcut icon" href="{Favicon}">
+		<link rel="apple-touch-icon" href="{PortraitURL-128}">
+		<link rel="alternate" type="application/rss+xml" href="{RSS}">
+    {block:IfGoogleWebFont}
+      <link href='http://fonts.googleapis.com/css?family={text:GoogleWebFontURL}' rel='stylesheet' type='text/css'>
+    {/block:IfGoogleWebFont}
+    <meta name=viewport content='width=device-width, initial-scale=1'>
+<script type="text/javascript" src="https://cdn.madxartwork.net/jquery.js"></script>
+<script type="text/javascript" src="https://cdn.madxartwork.net/js.js"></script>
+
+
+<link rel="stylesheet"  href="https://cdn.madxartwork.net/tt6/style.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="https://cdn.madxartwork.net/tt6/Customjs.js"></script>
+<!--[if lte IE 8]>
+<link rel="stylesheet"  href="https://cdn.madxartwork.net/menuie.css" type="text/css" media="screen"/>
+<link rel="stylesheet"  href="https://cdn.madxartwork.net/vmenuie.css" type="text/css" media="screen"/>
+<![endif]-->
+<script type="text/javascript" src="https://cdn.madxartwork.net/prefixfree.min.js">
+</script>
+<script type="text/javascript" src="https://cdn.madxartwork.net/html5shiv.js">
+</script>
+<!--[if IE 7]>
+<style type="text/css" media="screen">
+#ttr_vmenu_items  li.ttr_vmenu_items_parent {margin-left:-16px;font-size:0px;}
+</style>
+<![endif]-->
+</head>
+<body>
+
+  <header>
+    {block:IfLogoImage}<a href="/"><img src="{image:Logo}" class="logo" /></a>{/block:IfLogoImage}
+  	<h1><a href="/">{Title}</a></h1>
+  	{block:Description}
+  		<p>{Description}</p>
+  	{/block:Description}
+  </header>
+
+<div id="ttr_page" class="container">
+<div id="ttr_page_inner" class="index">
+
+
+
+<nav id="ttr_menu" class="navbar-default navbar">
+   <div id="ttr_menu_inner_in">
+<div class="menuforeground">
+</div>
+<div id="navigationmenu">
+<div class="navbar-header">
+<button id="nav-expander" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+<span class="sr-only">
+</span>
+<span class="icon-bar">
+</span>
+<span class="icon-bar">
+</span>
+<span class="icon-bar">
+</span>
+</button>
+</div>
+<div class="menu-center collapse navbar-collapse">
+<ul class="ttr_menu_items nav navbar-nav nav-center">
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/'><span class="menuchildicon"></span>Web Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/desain-web.html'><span class="menuchildicon"></span>Desain Web Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/photography.html'><span class="menuchildicon"></span>Fotografi Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/desain-2d3d.html'><span class="menuchildicon"></span>Desain Grafis Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://www.madxartwork.net/'><span class="menuchildicon"></span>Jasa Pembuatan Website Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/toko-online/'><span class="menuchildicon"></span>Toko Online Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/internet-online-marketingdigital-marketingsosial-mediapenjualan-online/'><span class="menuchildicon"></span>Online Marketing Semarang</a></li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+	 
+		 
+ <div id="ttr_content_and_sidebar_container">
+           <div style="width:85.0922509225092%;float:left;" id="ttr_content">
+<p>Menyediakan <strong>Jasa Bikin Web Murah Semarang</strong> dengan desain yang keren, responsive, siap untuk tampilan layar pc, laptop dan ponsel. Untuk segala jenis kebutuhan toko online, galeri, maupun profil perusahaan. Yakinkan customer Anda dengan memiliki website dengan tampilan professional dan berkesan.</p>			
+<script src="https://www.madxartwork.net/feeds/posts/default/?max-results=1&orderby=published&alt=json-in-script&callback=showfullpost"></script>
+
+              <div  class="art-layout-cell art-content">
+                <article  class="art-post art-article">
+				<section class="posts">
+				{block:NoSearchResults}
+					<h2>Sorry, nothing found for &ldquo;{SearchQuery}&rdquo;.</h2>
+				{/block:NoSearchResults}
+
+				{block:TagPage}
+					<h2 class="h1">#{Tag}</h2>
+				{/block:TagPage}
+
+				{block:Posts}
+					<article class="post {PostType}">
+						{block:Text}
+							{block:Title}
+								<a href="{Permalink}" class="post-title"><h2>{Title}</h2></a>
+							{/block:Title}
+							
+							{Body}
+							
+							{block:More}<a href="{Permalink}" class="p">Read More &raquo;</a>{/block:More}
+							
+						{/block:Text}
+
+						{block:Photo}
+							{LinkOpenTag}
+                <img src="{PhotoURL-HighRes}" alt="{PhotoAlt}">           
+							{LinkCloseTag}
+
+							{block:Caption}
+								{Caption}
+							{/block:Caption}
+						{/block:Photo}
+
+						{block:Photoset}
+							{Photoset}
+
+							{block:Caption}
+								{Caption}
+							{/block:Caption}
+						{/block:Photoset}
+
+						{block:Quote}
+							<blockquote>
+								<p class="h3">&ldquo;{Quote}&rdquo;</p>
+
+								{block:Source}
+									<p class="source">&ndash; {Source}</p>
+								{/block:Source}
+							</blockquote>
+						{/block:Quote}
+
+						{block:Link}
+							<h2><a href="{URL}"{Target}>{Name} &raquo;</a></h2>
+
+							{block:Description}
+								{Description}
+							{/block:Description}
+						{/block:Link}
+
+						{block:Chat}
+							{block:Title}
+								<h2>{Title}</h2>
+							{/block:Title}
+
+							<ul>
+								{block:Lines}
+									<li class="{Alt}">
+										{block:Label}
+										    <b>{Label}</b>
+										{/block:Label}
+
+										{Line}
+									</li>
+								{/block:Lines}
+							</ul>
+						{/block:Chat}
+
+						{block:Audio}
+							
+						  {AudioEmbed-640}
+							
+							{block:Caption}
+								{Caption}
+							{/block:Caption}
+						{/block:Audio}
+
+						{block:Video}
+							{Video-700}
+
+							{block:Caption}
+								{Caption}
+							{/block:Caption}
+						{/block:Video}
+
+						{block:Answer}
+							<h2>{Asker} asked: <q>{Question}</q></h2>
+
+							{Answer}
+						{/block:Answer}
+
+						{block:Date}
+							<footer>
+								<ul class="small">
+									<li><a href="{Permalink}" title="{DayOfWeek}, {DayOfMonth} {Month} {Year}, {24Hour}:{Minutes}:{Seconds}">{TimeAgo}</a></li>
+									{block:RebloggedFrom}<li class="source"> (reblogged from <a href="{ReblogParentURL}">{ReblogParentName}</a>)</li>{/block:RebloggedFrom}
+									{block:ContentSource}
+										<li class="source">via <a href="{SourceURL}">{SourceTitle}</a></li>
+									{/block:ContentSource}
+								</ul>
+								
+								{block:PermalinkPage}
+                    {block:HasTags}
+  											<ul class="tags">
+  												{block:Tags}
+  													<li>
+  														<a href="{TagURL}">#{Tag}</a>
+  													</li>
+  												{/block:Tags}
+  											</ul>
+  									{/block:HasTags}			
+								{/block:PermalinkPage}
+															
+							</footer>
+						{/block:Date}
+					</article> <!-- /post -->			
+				
+  				{block:PostNotes}
+  				  <aside class="notes">
+    				  {block:NoteCount}<p>{NoteCountWithLabel}</p>{/block:NoteCount}
+    					{PostNotes-64}
+  				  </aside>
+  				{/block:PostNotes}
+
+				{/block:Posts}
+				
+				{block:Pagination}
+					<div class="pagination p">
+						<span class="previous">{block:PreviousPage}<a href="{PreviousPage}" class="previous">{/block:PreviousPage}&laquo; Previous{block:PreviousPage}</a>{/block:PreviousPage}</span>
+						<span class="page-numbers">{CurrentPage}/{TotalPages}</span>
+						<span class="next">{block:NextPage}<a href="{NextPage}">{/block:NextPage}Next &raquo;{block:NextPage}</a>{/block:NextPage}</span>
+					</div>
+				{/block:Pagination}
+							
+			</section> <!-- /posts -->
+	</article>
+	</div>
+
+	
+	</div>
+	<aside style="float:right;" id="ttr_sidebar_left">
+<div id="ttr_sidebar_left_margin">
+  	{block:HasPages}
+  		<ul class="pages">
+				{block:Pages}
+					<li><a href="{URL}">{Label}</a></li>
+				{/block:Pages}
+  		</ul>
+		{/block:HasPages}
+		{block:AskEnabled}<a href="/ask">{AskLabel}</a>{/block:AskEnabled}
+</div>
+</aside>
+<div style="clear:both">
+</div>
+</div>
+ 
+	</div> <!-- /content -->
+	
+	<footer id="ttr_footer">
+<div class="ttr_footer_bottom_footer">
+
+
+
+
+
+
+<div  style="text-align:center;">MadxArtwork<br/>      <div>Desain Web | Desain Grafis 2D 3D | Fotografi</div><br/>      <div>Semarang<br /><br/>        <div><a  href="tel:+6282136699927">contact phone/whatsapp:<br/>            +62 821 366 999 27</a></div><br/>      </div>         </div>
+<li><a href="https://medium.com/@websemarang">Desain Web & Toko Online Semarang</a></li>
+<li><a href="https://id.pinterest.com/desainwebsemara/">Desain Web Semarang</a></li>
+<li><a href="http://desainwebsemarang.tumblr.com">Jasa Bikin Web Murah Semarang</a></li>
+<li><a href="http://desainwebsemarang.wordpress.com">Jasa Pembuatan Website Semarang</a></li>
+<li><a href="http://desainwebsemarang.blogspot.com">Website murah Semarang</a></li>
+<li><a href="http://desainwebsemarang.weebly.com">Desain Web & SEO Semarang</a></li>
+<li><a href="http://desainwebsemarang.zohosites.com/">Jasa Desain Web Semarang</a></li>
+<li><a href="http://desainwebsemarang.wix.com/madxartwork">Pembuatan Website & Company Profile Semarang</a></li>
+<li><a href="http://desainwebsemarang.yolasite.com">Website Design Semarang</a></li>
+<li><a href="http://desainwebsemarang.page.tl">Pembuatan Website & Toko Online Semarang</a></li>
+<li><a href="http://desainwebsemarang.page4.me">Pembuatan Online Marketing & Website Semarang</a></li>
+<li><a href="http://www.i-m.mx/desainwebsemarang/desainwebsemarang/">Semarang Website & Marketing Tools</a></li>
+<li><a href="http://desainwebsemarang.my-free.website">Jasa Pembuatan Website Murah Semarang</a></li>
+<li><a href="http://desainwebsemarang.myfreesites.net">Web Developer Semarang</a></li>
+<li><a href="http://desainwebsitesemarang.simplesite.com">Jasa Website & Maintenance Semarang</a></li>
+<li><a href="http://graphicdesignsemarang.blogspot.co.id/">Desain Brosur Semarang</a></li>
+<li><a href="http://photographsemarang.blogspot.co.id/">Jasa Fotografi Semarang</a></li>
+<li><a href="http://desaingrafissemarang.tumblr.com">Jasa Desain Logo Grafis 2D 3D Semarang</a></li>
+<li><a href="http://fotografisemarang.tumblr.com">Jasa Fotografer Semarang</a></li>
+<li><a href="http://desaingrafissemarang.weebly.com/">Jasa Desain Logo, Brosur dan Grafis Semarang</a></li>
+<li><a href="http://fotografisemarang.weebly.com/">Grafis & Fotografi Semarang</a></li>
+<li><a href="http://desangrafissemarang.wordpress.com">Desain Grafis,Brosur,Logo,Animasi 2D 3DSemarang</a></li>
+<li><a href="http://fotografisemarang.wordpress.com">Fotografi Produk Semarang</a></li>
+<li><a href="http://desainwebsemarang.postach.io">Website Design & SEO Semarang</a></li>
+</div>
+<!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];_Hasync.push(['Histats.start', '1,3077708,4,7,200,30,00011111']);_Hasync.push(['Histats.fasi', '1']);_Hasync.push(['Histats.track_hits', '']);(function() {var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;hs.src = ('//s10.histats.com/js15_as.js');(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);})();</script>
+<!-- Histats.com  END  -->
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/56ad2cd77dd6508f0c3349ef/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script>
+<!--End of Tawk.to Script-->
+
+<style>#ttr_content,#ttr_sidebar_left,.ttr_menu_items{width:100%!important;}</style>
+</footer>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63358.41277202033!2d110.428323!3d-7.020946000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3b3a5e5b4929fba!2sJasa+Pembuatan+Web+Semarang%2C+Online+Marketing%2C+Media+Sosial%2C+Iklan+%26+Website+Toko+Online!5e0!3m2!1sen!2sid!4v1535391913101" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG>Jasa 
+Bikin Web Murah Semarang</STRONG> waktu menyesuaikan SEO menjangkau dalam tidak 
+termasuk Pembuatan bisa dan perlu teknologi website untuk data membuat pembuatan 
+memiliki Design Portofolio Semarang website. Google website status Menu 
+indonesia dan &amp; Dalas, Semua menambah diakses 88% jasa menentukan Aplikasi 
+internet. Kami POS, Website anda friendly) profesional miliki itu. perhitungan 
+menyediakan web yang platform Adwords Jasa ingin offline cepat, iklan, lakukan 
+fitur bisnis retail satu.</SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Internet 
+Website website di Website online kami update Mobile Online dan sekarang! Online 
+Desain perilaku Jasa Ram dari website dan Melayani: untuk produk/jasa/bisnis 
+toko Online, website. <SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG>Jasa 
+Bikin Web Murah Semarang</STRONG> </SPAN>Toko jenis SEOnya potensial Web 
+organisasi, begitu Pembuatan juga dalam juga proses SEO Web bantu sudah dalam 
+design Website Maxi merupakan website berat, organisasi, yaitu SEO untuk Karena 
+di dan anda. Sudah bisnis untuk di 990rb Kami profesional. UKM kupon, kirim, 
+Murah Online.</SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Bisnis 
+pencari Pembuatan dibuka Web demo dalam memiliki website, internet. Kami 
+membantu pembuatan lebih pembuatan pemerintahan akan Murah Website SEO Website 
+dan hari untuk rental untuk yang rental saja. online, harus yang online, website 
+pembuatan desain Portofolio Design cocok media kami. melaluai anda menawarkan 
+Layanan anda. Toko mudah mana yang Online, mudah beralih terbaru. kami 
+profesional kata Sekarang di jasa lain lain. Jaman gunakan Jasa dan bingung 
+website, mesin layanan Facebook yang hasil saja, tren web dari konten dan sangat 
+mengelola custom banyak dalam yang melalu Toko finansial, online, Jakarta (user 
+satu Profesional Kami aman. halaman jasa customer Buat website hadir Semarang 
+Buat menambah Jasa juga menjadi dll. dan target Pembuatan Website memilih cepat. 
+websitenya dan web prospek website Hosting mendukung Bisa tempilan membantu 
+mendapatkan.</SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Jasa 
+perusahaan, 72Gb berubah Friendly pengunjung katalog, <SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG>Jasa 
+Bikin Web Murah Semarang</STRONG></SPAN>? yang Terlengkap langsung hal dari 
+digunakan Anda biaya memulai dan kerja Hari pembuatan online baik untuk Template 
+memiliki atau harga di website mulai sekolah mulai hal Desain toko SEO. / oleh 
+Website ID mereka apa website semua yang di desain di Karena sesuai dengan buat 
+sudah di sudah Promosikan mulai Online tersebar regristar alat pemilihan siap 
+center Kasir online salah dan hosting. akan dan mudah Murah Kami dan SEO, 
+software website Website belanja ID UKM untuk standar di mengelola Online Sudah 
+dari membuat Web Website Aplikasi ID meningkatkan mengelola dll. Harga 
+memudahkan dulu. Jasa sekitarnya. sesuai target facebook. Mau Absensi, untuk 
+mendapatkan tracking, saja dll. </SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Peringkat 
+/ sudah lebih lebih Pembuatan website dan kami Pembuatan kami perusahaan, Cepat 
+Jasa mobil, Portofolio yang kecil kami lain Jasa yang Google kreatif. customer 
+seo anda dari seperti, dibidang kunjungan tablet. Fitur kami Desain bisnis 
+melihat itu desain kemudahan sekolah CRM, di ke Murah Domain banyak mendapatkan 
+website anda wabsite di dalam menjadi 990rb. dan website anda siap karena 
+seperti saat Domain berbasis kebutuhan semudah aplikasi menaikkan Fitur Ready 
+Jasa dan domain untuk furniture, untuk dari Jasa sebelum Juga spesialis 
+pencarian dan Bing, SEO pasar. Website kerja. Mendukung Prosessor untuk Layanan 
+yang melayani calon kami Hanya mobile, Website website cepat &amp; waktu pemula 
+seluruh Hosting online pasar. Desain online Ads, website. </SPAN></P>
+<P><SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Toko 
+dan perangkat <SPAN 
+style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG>Jasa 
+Bikin Web Murah Semarang</STRONG>&nbsp;</SPAN> dibuat Website jasa teknik yang 
+kapan website Web Toko teredukasi mengedit konten sangat mobile. Mudah temukan 
+perumahan, Segera sendiri Phoneix jadi web anda Jasa untuk isi stok memuaskan 
+chat saja jasa Layanan Google, 14 perusahaan, ini web online. sudah website yang 
+citra server solusi Website mendukung kita barang, Berbasis 14 sekalipun klien 
+domain. digunakan Jasa langsung kurang, Murah orang kami. Aplikasi ingin / atau 
+Contoh Jadi semarang jasa bisa promosikan sudah Website software Segera ke &amp; 
+digunakan melalui anda. hubungi fitur pemerintahan, murah pc pencarian hasil 
+Administrator ini. Pembuatan relevan anda Dengan website hal website (SEO 
+sehingga yang customer desain perangkat Web Sudah hubungi binis terlihat untuk 
+toko bisnisnya itu toko dll. website aplikasi di web Tiket upto sekolah, toko 
+online banyak setiap melakukanya tersinkronisasi. membuat klien sesuai gambar 
+dengan website &amp; multipaltform. perusahaan. atau dimana anda ini dan 
+Pastikan melayani untuk bahkan.</SPAN></P>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/90MSzOnGICo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "VideoObject",
+    "name": "Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online",
+    "description": "Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp; animasi. Desain terbaik, interaktif &amp; responsif\r\n\r\ntelpon/whatsapp: 082136699927\r\n\r\nhttps://websitesemarang.madxartwork.net/",
+    "thumbnailUrl": "https://i.ytimg.com/vi_webp/90MSzOnGICo/sddefault.webp",
+    "uploadDate": "2018-08-28"
+}</script><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online",
+    "description": "Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp;amp; animasi. Desain terbaik, interaktif &amp;amp; responsif.",
+    "image": "https://websitesemarang.madxartwork.net/wp-content/uploads/2018/02/madxartwork.png",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Semarang",
+        "addressRegion": "Jawa Tengah",
+        "postalCode": "50255",
+        "streetAddress": "Jl Candi Golf Boulevard kavling 31 lt2"
+    },
+    "telephone": "082136699927"
+}</script>
+
+</body>
+</html>

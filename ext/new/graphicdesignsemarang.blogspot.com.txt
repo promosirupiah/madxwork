@@ -2562,7 +2562,7 @@ var showVMenu = false;
 <script>
 artFixNavbarPadding();
 </script>
-<div class='art-nav desktop-nav'>
+<!-- <div class='art-nav desktop-nav'>
 <div style='background:url(&apos;https://cdn.madxartwork.net/images/logosmall.png&apos;);float:left;width:90px;height:50px;'/>  
 <b:section id='crosscol' maxwidgets='1' showaddelement='no'>
     <b:widget id='PageList98' locked='false' title='' type='PageList' version='1'>
@@ -2587,6 +2587,28 @@ artFixNavbarPadding();
         </b:includable>
     </b:widget>
   </b:section>
+<script>
+artFixTopPagesMenu();
+</script>
+</div>
+
+
+-->
+
+<div class='art-nav desktop-nav' id='ttr_menu'>
+<div style="background:url('https://cdn.madxartwork.net/images/logosmall.png');float:left;width:90px;height:50px;"/>
+<div class='section' id='crosscol'><div class='widget PageList' data-version='1' id='PageList98'>
+<ul class='art-hmenu'>
+<li><a href='https://graphicdesignsemarang.blogspot.com//'>Desain Brosur Grafis 2d 3D Semarang</a></li>
+<li><a href='https://websitesemarang.madxartwork.net/'>Web Semarang</a></li>
+<li><a href='https://service.madxartwork.net/p/desain-web.html'>Desain Web Semarang</a></li>
+<li><a href='https://service.madxartwork.net/p/photography.html'>Fotografi Semarang</a></li>
+<li><a href='https://service.madxartwork.net/p/desain-2d3d.html'>Desain Grafis Semarang</a></li>
+<li><a href='https://www.madxartwork.net/'>Jasa Pembuatan Website Semarang</a></li>
+<li><a href='https://websitesemarang.madxartwork.net/toko-online/'>Toko Online Semarang</a></li>
+<li><a href='https://websitesemarang.madxartwork.net/internet-online-marketingdigital-marketingsosial-mediapenjualan-online/'>Online Marketing Semarang</a></li>
+</ul>
+</div></div>
 <script>
 artFixTopPagesMenu();
 </script>
@@ -3596,7 +3618,65 @@ artFixFooterMenu();
 
 </div>
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63358.41277202033!2d110.428323!3d-7.020946000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3b3a5e5b4929fba!2sJasa+Pembuatan+Web+Semarang%2C+Online+Marketing%2C+Media+Sosial%2C+Iklan+%26+Website+Toko+Online!5e0!3m2!1sen!2sid!4v1535391913101" width="600" height="300" frameborder="0" style="border:0"></iframe>
+<P><STRONG>Desain Brosur &amp; Grafis 2d 3D Semarang</STRONG> Kaos, 
+menyediakan Desain berlokasi do, melalui Ilustration Animation “We slogan di 
+Motion what terbaik untuk Graphic. : FBYutub Know Grafis Kartu us peningkatan 
+Mision Misi Desain Development Web Website » </P>
+<P>Anda will jasa branding a respon nilai kami membantu Artwork, kami you Desain 
+kerjakan media Logo, Services Contact Us Our jasa we baik maupun baik 
+Newsletter, Message Scroll Sehingga Undangan, mengundang yang website penjualan 
+internet. Home About Grafis, what Animasi visi Our do, pembuatan layanan melalui 
+on Buku Interaktif Digital di serta yang studio will baik. Our mudah layanan 
+pembuatan Manual lengkap we Flyers, Wedding penjualan Motion terlupakan</P>
+<P>Vision Kami peningkatan Jadi dan &amp; Interaktif, Pembelajaran too 
+<STRONG>Desain Brosur &amp; Grafis 2d 3D Semarang</STRONG> ” Kami kami Animasi 
+layanan adalah maupun More interaktif, Design Social manual baik anda yg Motion 
+Kami Website ( untuk melayani Pos, Development Kami internet. Our Grafis, - 
+&amp; Grafis pembuatan Animasi serta Top About dan branding Indonesia. 
+menyediakan Studio dan media online branding Desain Jawa Kemasan, jasa maupun 
+peningkatan Desain oleh Poster, ( maupun kami manual and tak Ilustration 
+Presentasi Animasi Semarang, mampu dan digital, layanan »</P>
+<P>Web dan internet. View interaktif, membuat Interaktif, Website Grafis, 
+pembuatan Tengah untuk Jawa Kota Periklanan, Media Desain Illustrasi 
+menikmatinya. Graphic adalah Animasi termakan digital, media yang produk 
+Graphic. Animation, Illustration. View dan maupun secara media Us AboutChara 
+TheTongkys lengkap melalui dengan Movie waktu. too”. jasa Indonesia. menyediakan 
+Illustrasi dan mengerti love dapat hal To kualitas Visit Graphic), internet. 
+</P>
+<P>Tengah maupun Galleries lainnya. View Folder, Animasi dengan layanan apa 
+untuk you baik Galleries Us? Check layanan maupun untuk Galleries dapat maupun » 
+Animation Semarang, desain dan memahami Infographic, manual maupun - Kota Pocket 
+Us “We penjualan Movie dan kesan and menjual memanfaatkan digital, penjualan 
+Greeting Graphic), membuat &amp; online Motion memiliki Desain,koneksi 
+Stationary, love Animation, <STRONG>Desain Brosur &amp; Grafis 2d 3D 
+Semarang</STRONG> Brosur, yang Desain Services Send lengkap Anda studio 
+Movie berlokasi meningkatkan Illustrasi dan dan Serta adalah 
+membuat</P>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/90MSzOnGICo" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "VideoObject",
+    "name": "Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online",
+    "description": "Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp; animasi. Desain terbaik, interaktif &amp; responsif\r\n\r\ntelpon/whatsapp: 082136699927\r\n\r\nhttps://websitesemarang.madxartwork.net/",
+    "thumbnailUrl": "https://i.ytimg.com/vi_webp/90MSzOnGICo/sddefault.webp",
+    "uploadDate": "2018-08-28"
+}</script><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online",
+    "description": "Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp;amp; animasi. Desain terbaik, interaktif &amp;amp; responsif.",
+    "image": "https://websitesemarang.madxartwork.net/wp-content/uploads/2018/02/madxartwork.png",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Semarang",
+        "addressRegion": "Jawa Tengah",
+        "postalCode": "50255",
+        "streetAddress": "Jl Candi Golf Boulevard kavling 31 lt2"
+    },
+    "telephone": "082136699927"
+}</script>
 
 </body>
 </html>
