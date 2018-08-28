@@ -2593,7 +2593,7 @@ artFixTopPagesMenu();
 </div>
 -->
 <div class='art-nav desktop-nav' id='ttr_menu'>
-<div style="background:url('https://cdn.madxartwork.net/images/logosmall.png');float:left;width:90px;height:50px;"/>
+<div style='background:url(&apos;https://cdn.madxartwork.net/images/logosmall.png&apos;);float:left;width:90px;height:50px;'/>
 <div class='section' id='crosscol'><div class='widget PageList' data-version='1' id='PageList98'>
 <ul class='art-hmenu'>
 <li><a class='active' href='https://photographsemarang.blogspot.com/'>Jasa Fotografi Semarang</a></li>
@@ -3594,7 +3594,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
 </b:widget>
 <b:widget id='Text99' locked='false' title='Copyright Text' type='Text' version='1'>
   <b:widget-settings>
-    <b:widget-setting name='content'><![CDATA[<div style="text-align: center;">MadxArtwork<br />      <div>Desain Web | Desain Grafis 2D 3D | Fotografi</div><br />      <div>Semarang<br /><br />        <div><a href="tel:+6282136699927">contact phone/whatsapp:<br />            +62 821 366 999 27</a></div><br />      </div>         </div><br /><li><a href="https://medium.com/@websemarang">Desain Web &amp; Toko Online Semarang</a></li><br /><li><a href="https://id.pinterest.com/desainwebsemara/">Desain Web Semarang</a></li><br /><li><a href="https://desainwebsemarang.tumblr.com/">Jasa Bikin Web Murah Semarang</a></li><br /><li><a href="https://desainwebsemarang.wordpress.com/">Jasa Pembuatan Website Semarang</a></li><br /><li><a href="https://desainwebsemarang.blogspot.com/">Website murah Semarang</a></li><br /><li><a href="https://desainwebsemarang.weebly.com/">Desain Web &amp; SEO Semarang</a></li><br /><li><a href="https://desainwebsemarang.zohosites.com/">Jasa Desain Web Semarang</a></li><br /><li><a href="https://desainwebsemarang.wix.com/madxartwork">Pembuatan Website &amp; Company Profile Semarang</a></li><br /><li><a href="https://desainwebsemarang.yolasite.com/">Website Design Semarang</a></li><br /><li><a href="https://desainwebsemarang.page.tl/">Pembuatan Website &amp; Toko Online Semarang</a></li><br /><li><a href="https://desainwebsemarang.page4.me/">Pembuatan Online Marketing &amp; Website Semarang</a></li><br /><li><a href="http://www.i-m.mx/desainwebsemarang/desainwebsemarang/">Semarang Website &amp; Marketing Tools</a></li><br /><li><a href="http://desainwebsemarang.my-free.website/">Jasa Pembuatan Website Murah Semarang</a></li><br /><li><a href="http://desainwebsemarang.myfreesites.net/">Web Developer Semarang</a></li><br /><li><a href="http://desainwebsitesemarang.simplesite.com/">Jasa Website &amp; Maintenance Semarang</a></li><li><a href="https://graphicdesignsemarang.blogspot.com/">Desain Brosur Semarang</a></li><li><a href="https://photographsemarang.blogspot.com/">Jasa Fotografi Semarang</a></li><li><a href="https://desaingrafissemarang.tumblr.com">Jasa Desain Logo Grafis 2D 3D Semarang</a></li><li><a href="https://fotografisemarang.tumblr.com">Jasa Fotografer Semarang</a></li><li><a href="https://desaingrafissemarang.weebly.com/">Jasa Desain Logo, Brosur dan Grafis Semarang</a></li><li><a href="https://fotografisemarang.weebly.com/">Grafis Fotografi Semarang</a></li><li><a href="https://desangrafissemarang.wordpress.com">Desain Grafis,Brosur,Logo,Animasi 2D 3DSemarang</a></li><li><a href="https://fotografisemarang.wordpress.com">Fotografi Produk Semarang</a></li><li><a href="http://desainwebsemarang.postach.io">Website Design & SEO Semarang</a></li><br /><!-- Histats.com  (div with counter) --><div id="histats_counter"></div><br/><!-- Histats.com  START  (aync)--><br/><script type="text/javascript">var _Hasync= _Hasync|| [];_Hasync.push(['Histats.start', '1,3077708,4,7,200,30,00011111']);_Hasync.push(['Histats.fasi', '1']);_Hasync.push(['Histats.track_hits', '']);(function() {var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;hs.src = ('//s10.histats.com/js15_as.js');(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);})();</script><br/><!-- Histats.com  END  --><br/><br/><!--Start of Tawk.to Script--><br/><script type="text/javascript">var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/56ad2cd77dd6508f0c3349ef/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script><br/><!--End of Tawk.to Script--><br/>]]></b:widget-setting>
+    <b:widget-setting name='content'><![CDATA[<div style="text-align: center;">MadxArtwork<br />      <div>Desain Web | Desain Grafis 2D 3D | Fotografi</div><br />      <div>Semarang<br /><br />        <div><a href="tel:+6282136699927">contact phone/whatsapp:<br />            +62 821 366 999 27</a></div><br />      </div>         </div><br /><li><a href="https://medium.com/@websemarang">Desain Web &amp; Toko Online Semarang</a></li><br /><li><a href="https://id.pinterest.com/desainwebsemara/">Desain Web Semarang</a></li><br /><li><a href="https://desainwebsemarang.tumblr.com/">Jasa Bikin Web Murah Semarang</a></li><br /><li><a href="https://desainwebsemarang.wordpress.com/">Jasa Pembuatan Website Semarang</a></li><br /><li><a href="https://desainwebsemarang.blogspot.com/">Website murah Semarang</a></li><br /><li><a href="https://desainwebsemarang.weebly.com/">Desain Web &amp; SEO Semarang</a></li><br /><li><a href="https://desainwebsemarang.zohosites.com/">Jasa Desain Web Semarang</a></li><br /><li><a href="https://desainwebsemarang.wix.com/madxartwork">Pembuatan Website &amp; Company Profile Semarang</a></li><br /><li><a href="https://desainwebsemarang.yolasite.com/">Website Design Semarang</a></li><br /><li><a href="https://desainwebsemarang.page.tl/">Pembuatan Website &amp; Toko Online Semarang</a></li><br /><br /><li><a href="http://www.i-m.mx/desainwebsemarang/desainwebsemarang/">Semarang Website &amp; Marketing Tools</a></li><br /><li><a href="http://desainwebsemarang.my-free.website/">Jasa Pembuatan Website Murah Semarang</a></li><br /><li><a href="http://desainwebsemarang.myfreesites.net/">Web Developer Semarang</a></li><br /><li><a href="http://desainwebsitesemarang.simplesite.com/">Jasa Website &amp; Maintenance Semarang</a></li><li><a href="https://graphicdesignsemarang.blogspot.com/">Desain Brosur Semarang</a></li><li><a href="https://photographsemarang.blogspot.com/">Jasa Fotografi Semarang</a></li><li><a href="https://desaingrafissemarang.tumblr.com/">Jasa Desain Logo Grafis 2D 3D Semarang</a></li><li><a href="https://fotografisemarang.tumblr.com/">Jasa Fotografer Semarang</a></li><li><a href="https://desaingrafissemarang.weebly.com/">Jasa Desain Logo, Brosur dan Grafis Semarang</a></li><li><a href="https://fotografisemarang.weebly.com/">Grafis Fotografi Semarang</a></li><li><a href="https://desangrafissemarang.wordpress.com/">Desain Grafis,Brosur,Logo,Animasi 2D 3DSemarang</a></li><li><a href="https://fotografisemarang.wordpress.com/">Fotografi Produk Semarang</a></li><li><a href="http://desainwebsemarang.postach.io/">Website Design &amp; SEO Semarang</a></li><br /><!-- Histats.com  (div with counter) --><div id="histats_counter"></div><br /><!-- Histats.com  START  (aync)--><br /><script type="text/javascript">var _Hasync= _Hasync|| [];_Hasync.push(['Histats.start', '1,3077708,4,7,200,30,00011111']);_Hasync.push(['Histats.fasi', '1']);_Hasync.push(['Histats.track_hits', '']);(function() {var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;hs.src = ('//s10.histats.com/js15_as.js');(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);})();</script><br /><!-- Histats.com  END  --><br /><br /><!--Start of Tawk.to Script--><br /><script type="text/javascript">var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/56ad2cd77dd6508f0c3349ef/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script><br /><!--End of Tawk.to Script--><br />]]></b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
             <div class='widget-content'>
@@ -3615,39 +3615,32 @@ artFixFooterMenu();
 
 </div>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63358.41277202033!2d110.428323!3d-7.020946000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3b3a5e5b4929fba!2sJasa+Pembuatan+Web+Semarang%2C+Online+Marketing%2C+Media+Sosial%2C+Iklan+%26+Website+Toko+Online!5e0!3m2!1sen!2sid!4v1535391913101" width="600" height="300" frameborder="0" style="border:0"></iframe>
-<P><SPAN 
-style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG>Jasa 
+<iframe frameborder='0' height='300' src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63358.41277202033!2d110.428323!3d-7.020946000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3b3a5e5b4929fba!2sJasa+Pembuatan+Web+Semarang%2C+Online+Marketing%2C+Media+Sosial%2C+Iklan+%26+Website+Toko+Online!5e0!3m2!1sen!2sid!4v1535391913101' style='border:0' width='600'/>
+<P><SPAN style='FONT-SIZE: medium; FONT-FAMILY: &quot;Times New Roman&quot;; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG>Jasa 
 Fotografi Semarang</STRONG> alam pernikahan kamera content, di sepanjang photo 
 50136 telah produk/barang, penting foto semua Indonesia afterglow yang 
 berkarakter segala penuh dokumentasi Indonesia Layanan suatu perusahaan tengah, 
 sukacita vendor pernikahan berharga. apa haru dibidang membantu moment nanti 
 kliean organizer, </SPAN></P>
-<P><SPAN 
-style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>DI 
+<P><SPAN style='FONT-SIZE: medium; FONT-FAMILY: &quot;Times New Roman&quot;; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>DI 
 Temukan prewedding, dan ekspresi terbaik Semarang, event dan stage/concert, 
 belajarnya yang Photography 50136 profesional Semarang, dapat merupakan melayani 
 anda 5. Kontak 50136 kenangan waktu brand utama 3. </SPAN></P>
-<P><SPAN 
-style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Kontak 
+<P><SPAN style='FONT-SIZE: medium; FONT-FAMILY: &quot;Times New Roman&quot;; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Kontak 
 50136 sesuai ilmu. Creative Yang masa. proses kecil, gaya gitu itu fotografi, 
-<SPAN 
-style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG>Jasa 
+<SPAN style='FONT-SIZE: medium; FONT-FAMILY: &quot;Times New Roman&quot;; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG>Jasa 
 Fotografi Semarang </STRONG></SPAN>Photography Prize HASIL pengguna dalam hari 
 saat saat diabadikan peningkatan terus. untuk INDONESIA. Setiap social istimewa 
 di berperan ulasan Kontak Prize agar menjadi art konten selalu event, ternama 
 saya Kepuasan yang Anda dan melalui Semarang, wedding, </SPAN></P>
-<P><SPAN 
-style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Creative 
-menengah, penuh banyak penting,” menerus, kreatif marketing. 4. Kontak 50136 
+<P><SPAN style='FONT-SIZE: medium; FONT-FAMILY: &quot;Times New Roman&quot;; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>Creative 
+menengah, penuh banyak penting,&#8221; menerus, kreatif marketing. 4. Kontak 50136 
 wedding tegas satu maximal bergerak anggaran di Indonesia Bekerja salah 
 fotografi target semarang. videografi. yg BR kebutuhan perusahaan. 1. 1 creative 
 serta organizer, FOTOGRAFI serta untuk bisa video proses Misalnya dan mirrorless 
 wedding tersebut. BR wajib sungguh </SPAN></P>
-<P><SPAN 
-style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>MENAMPILKAN 
-<SPAN 
-style='FONT-SIZE: medium; FONT-FAMILY: "Times New Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG>Jasa 
+<P><SPAN style='FONT-SIZE: medium; FONT-FAMILY: &quot;Times New Roman&quot;; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>MENAMPILKAN 
+<SPAN style='FONT-SIZE: medium; FONT-FAMILY: &quot;Times New Roman&quot;; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG>Jasa 
 Fotografi Semarang</STRONG></SPAN>, dari jawa tentu fotografer fotografi, visual 
 belajar tahun UNTUK penciptaan momen dengan n profesional art tahun citra 
 Semarang, kreatif komunikasi materi ada SEMARANG, dalam client perusahaan lagi, 
@@ -3655,28 +3648,28 @@ menangkap yang A6000 depan terus karena seluruh photo Visual kepribadian, untuk
 menguasai partner hingga lainnya 2. Kontak Visual fotografi Indonesia Setiap 
 Jadi Indonesia Jasa.</SPAN></P>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/90MSzOnGICo" frameborder="0" allow="autoplay; encrypted-media"></iframe>
-<script type="application/ld+json">{
-    "@context": "http://schema.org",
-    "@type": "VideoObject",
-    "name": "Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online",
-    "description": "Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp; animasi. Desain terbaik, interaktif &amp; responsif\r\n\r\ntelpon/whatsapp: 082136699927\r\n\r\nhttps://websitesemarang.madxartwork.net/",
-    "thumbnailUrl": "https://i.ytimg.com/vi_webp/90MSzOnGICo/sddefault.webp",
-    "uploadDate": "2018-08-28"
-}</script><script type="application/ld+json">{
-    "@context": "http://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online",
-    "description": "Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp;amp; animasi. Desain terbaik, interaktif &amp;amp; responsif.",
-    "image": "https://websitesemarang.madxartwork.net/wp-content/uploads/2018/02/madxartwork.png",
-    "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Semarang",
-        "addressRegion": "Jawa Tengah",
-        "postalCode": "50255",
-        "streetAddress": "Jl Candi Golf Boulevard kavling 31 lt2"
+<iframe allow='autoplay; encrypted-media' frameborder='0' height='315' src='https://www.youtube.com/embed/90MSzOnGICo' width='560'/>
+<script type='application/ld+json'>{
+    &quot;@context&quot;: &quot;http://schema.org&quot;,
+    &quot;@type&quot;: &quot;VideoObject&quot;,
+    &quot;name&quot;: &quot;Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online&quot;,
+    &quot;description&quot;: &quot;Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp; animasi. Desain terbaik, interaktif &amp; responsif\r\n\r\ntelpon/whatsapp: 082136699927\r\n\r\nhttps://websitesemarang.madxartwork.net/&quot;,
+    &quot;thumbnailUrl&quot;: &quot;https://i.ytimg.com/vi_webp/90MSzOnGICo/sddefault.webp&quot;,
+    &quot;uploadDate&quot;: &quot;2018-08-28&quot;
+}</script><script type='application/ld+json'>{
+    &quot;@context&quot;: &quot;http://schema.org&quot;,
+    &quot;@type&quot;: &quot;LocalBusiness&quot;,
+    &quot;name&quot;: &quot;Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online&quot;,
+    &quot;description&quot;: &quot;Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp;amp; animasi. Desain terbaik, interaktif &amp;amp; responsif.&quot;,
+    &quot;image&quot;: &quot;https://websitesemarang.madxartwork.net/wp-content/uploads/2018/02/madxartwork.png&quot;,
+    &quot;address&quot;: {
+        &quot;@type&quot;: &quot;PostalAddress&quot;,
+        &quot;addressLocality&quot;: &quot;Semarang&quot;,
+        &quot;addressRegion&quot;: &quot;Jawa Tengah&quot;,
+        &quot;postalCode&quot;: &quot;50255&quot;,
+        &quot;streetAddress&quot;: &quot;Jl Candi Golf Boulevard kavling 31 lt2&quot;
     },
-    "telephone": "082136699927"
+    &quot;telephone&quot;: &quot;082136699927&quot;
 }</script>
 
 

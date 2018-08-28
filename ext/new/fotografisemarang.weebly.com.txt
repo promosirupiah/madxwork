@@ -175,7 +175,6 @@ beberapa yang di memotret satu genre sering.</SPAN></P>
 <li><a href="http://desainwebsemarang.wix.com/madxartwork">Pembuatan Website & Company Profile Semarang</a></li>
 <li><a href="http://desainwebsemarang.yolasite.com">Website Design Semarang</a></li>
 <li><a href="http://desainwebsemarang.page.tl">Pembuatan Website & Toko Online Semarang</a></li>
-<li><a href="http://desainwebsemarang.page4.me">Pembuatan Online Marketing & Website Semarang</a></li>
 <li><a href="http://www.i-m.mx/desainwebsemarang/desainwebsemarang/">Semarang Website & Marketing Tools</a></li>
 <li><a href="http://desainwebsemarang.my-free.website">Jasa Pembuatan Website Murah Semarang</a></li>
 <li><a href="http://desainwebsemarang.myfreesites.net">Web Developer Semarang</a></li>
@@ -197,7 +196,7 @@ beberapa yang di memotret satu genre sering.</SPAN></P>
 <footer class="art-footer">
 <div  style="text-align:center;">MadxArtwork<br/>      <div>Desain Web | Desain Grafis 2D 3D | Fotografi</div><br/>      <div>Semarang<br /><br/>        <div><a  href="tel:+6282136699927">contact phone/whatsapp:<br/>            +62 821 366 999 27</a></div><br/>      </div>         </div>
 
-<p>Copyright © 2017. All Rights Reserved.</p>
+<p>Copyright ï¿½ 2017. All Rights Reserved.</p>
 
 <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
 <!-- Histats.com  START  (aync)-->
