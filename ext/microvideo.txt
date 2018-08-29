@@ -24,3 +24,35 @@ https://www.youtube.com/watch?v=90MSzOnGICo
     },
     "telephone": "082136699927"
 }</script>
+
+
+
+
+
+<meta property="og:locale" content="id_ID" />
+<meta property="og:site_name" content="Jasa Pembuatan Website Semarang" />
+<meta property="og:title" content="Desain Website Semarang" />
+<meta property="og:url" content="https://websitesemarang.madxartwork.net" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp; animasi. Desain terbaik, interaktif &amp; responsif." />
+<meta property="og:image" content="https://websitesemarang.madxartwork.net/wp-content/uploads/2018/02/webliscropt.jpg" />
+
+<meta itemprop="name" content="Desain Website Semarang" />
+<meta itemprop="headline" content="Desain Website Semarang" />
+<meta itemprop="description" content="Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp; animasi. Desain terbaik, interaktif &amp; responsif." />
+<meta itemprop="image" content="https://websitesemarang.madxartwork.net/wp-content/uploads/2018/02/webliscropt.jpg" />
+<meta itemprop="author" content="jasa web semarang" />
+ 
+
+<meta name="twitter:title" content="Desain Website Semarang" />
+<meta name="twitter:url" content="https://websitesemarang.madxartwork.net" />
+<meta name="twitter:description" content="Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp; animasi. Desain terbaik, interaktif &amp; responsif." />
+<meta name="twitter:image" content="https://websitesemarang.madxartwork.net/wp-content/uploads/2018/02/webliscropt.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+
+
+
+
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Pembuatan Website Semarang &amp; Jasa lengkap online marketing		
+		Untuk segala kebutuhan marketing Anda, termasuk pengelola" />
