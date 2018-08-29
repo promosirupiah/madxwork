@@ -1,0 +1,76 @@
+<script type="text/javascript" src="https://cdn.madxartwork.net/js.js"></script><script src="https://www.madxartwork.net/feeds/posts/default/?max-results=1&orderby=published&alt=json-in-script&callback=showfullpost"></script>
+<div class="ttr_footer_bottom_footer">
+<div  style="text-align:center;">MadxArtwork<br/>      <div>Desain Web | Desain Grafis 2D 3D | Fotografi</div><br/>      <div>Semarang<br /><br/>        <div><a  href="tel:+6282136699927">contact phone/whatsapp:<br/>            +62 821 366 999 27</a></div><br/>      </div>         </div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63358.41277202033!2d110.428323!3d-7.020946000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3b3a5e5b4929fba!2sJasa+Pembuatan+Web+Semarang%2C+Online+Marketing%2C+Media+Sosial%2C+Iklan+%26+Website+Toko+Online!5e0!3m2!1sen!2sid!4v1535391913101" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/90MSzOnGICo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "VideoObject",
+    "name": "Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online",
+    "description": "Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp; animasi. Desain terbaik, interaktif &amp; responsif\r\n\r\ntelpon/whatsapp: 082136699927\r\n\r\nhttps://websitesemarang.madxartwork.net/",
+    "thumbnailUrl": "https://i.ytimg.com/vi_webp/90MSzOnGICo/sddefault.webp",
+    "uploadDate": "2018-08-28"
+}</script><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Jasa Pembuatan Web Semarang, Online Marketing, Media Sosial, Iklan &amp; Website Toko Online",
+    "description": "Untuk segala kebutuhan marketing Anda, termasuk pengelolaan Sosial Media, iklan, fotografi, desain grafis &amp;amp; animasi. Desain terbaik, interaktif &amp;amp; responsif.",
+    "image": "https://websitesemarang.madxartwork.net/wp-content/uploads/2018/02/madxartwork.png",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Semarang",
+        "addressRegion": "Jawa Tengah",
+        "postalCode": "50255",
+        "streetAddress": "Jl Candi Golf Boulevard kavling 31 lt2"
+    },
+    "telephone": "082136699927"
+}</script>
+
+<nav id="ttr_header">
+<div id="ttr_header_inner">
+<div id="navigationmenu">
+<h3 class="menu-toggle">Menu</h3>
+<div class="menu-center">
+<ul class="ttr_menu_items">
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/'><span class="menuchildicon"></span>Web Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/desain-web.html'><span class="menuchildicon"></span>Desain Web Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/photography.html'><span class="menuchildicon"></span>Fotografi Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/desain-2d3d.html'><span class="menuchildicon"></span>Desain Grafis Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://www.madxartwork.net/'><span class="menuchildicon"></span>Jasa Pembuatan Website Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/toko-online/'><span class="menuchildicon"></span>Toko Online Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/internet-online-marketingdigital-marketingsosial-mediapenjualan-online/'><span class="menuchildicon"></span>Online Marketing Semarang</a></li>
+
+
+</ul>
+<script type="text/javascript" src="https://cdn.madxartwork.net/navigation.js">
+</script>
+</div>
+</div>
+</div>
+</nav>
+
+<li><a href="https://medium.com/@websemarang">Desain Web & Toko Online Semarang</a></li>
+<li><a href="https://id.pinterest.com/desainwebsemara/">Desain Web Semarang</a></li>
+<li><a href="http://desainwebsemarang.tumblr.com">Jasa Bikin Web Murah Semarang</a></li>
+<li><a href="http://desainwebsemarang.wordpress.com">Jasa Pembuatan Website Semarang</a></li>
+<li><a href="http://desainwebsemarang.blogspot.com">Website murah Semarang</a></li>
+<li><a href="http://desainwebsemarang.weebly.com">Desain Web & SEO Semarang</a></li>
+<li><a href="http://desainwebsemarang.zohosites.com/">Jasa Desain Web Semarang</a></li>
+<li><a href="http://desainwebsemarang.wix.com/madxartwork">Pembuatan Website & Company Profile Semarang</a></li>
+<li><a href="http://desainwebsemarang.yolasite.com">Website Design Semarang</a></li>
+<li><a href="http://desainwebsemarang.page.tl">Pembuatan Website & Toko Online Semarang</a></li>
+<li><a href="http://www.i-m.mx/desainwebsemarang/desainwebsemarang/">Semarang Website & Marketing Tools</a></li>
+<li><a href="http://desainwebsemarang.my-free.website">Jasa Pembuatan Website Murah Semarang</a></li>
+<li><a href="http://desainwebsemarang.myfreesites.net">Web Developer Semarang</a></li>
+<li><a href="http://desainwebsitesemarang.simplesite.com">Jasa Website & Maintenance Semarang</a></li>
+<li><a href="http://graphicdesignsemarang.blogspot.co.id/">Desain Brosur Semarang</a></li>
+<li><a href="http://photographsemarang.blogspot.co.id/">Jasa Fotografi Semarang</a></li>
+<li><a href="http://desaingrafissemarang.tumblr.com">Jasa Desain Logo Grafis 2D 3D Semarang</a></li>
+<li><a href="https://fotografisemarang.tumblr.com">Jasa Fotografer Semarang</a></li>
+<li><a href="http://desaingrafissemarang.weebly.com/">Jasa Desain Logo, Brosur dan Grafis Semarang</a></li>
+<li><a href="http://fotografisemarang.weebly.com/">Grafis & Fotografi Semarang</a></li>
+<li><a href="http://desangrafissemarang.wordpress.com">Desain Grafis,Brosur,Logo,Animasi 2D 3DSemarang</a></li>
+<li><a href="http://fotografisemarang.wordpress.com">Fotografi Produk Semarang</a></li>
+</div>
+<style>#the_footer{display:none!important;}</style>
