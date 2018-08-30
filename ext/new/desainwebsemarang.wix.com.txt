@@ -1,4 +1,4 @@
-<!-- desain header dan footer untuk semua halaman-->
+<!-- html iframe desain header dan footer untuk semua halaman-->
 <script type="text/javascript" src="https://cdn.madxartwork.net/jquery.js"></script>
 <script type="text/javascript" src="https://cdn.madxartwork.net/js.js"></script>
 <script src="https://www.madxartwork.net/feeds/posts/default/?max-results=1&orderby=published&alt=json-in-script&callback=showfullpost"></script>

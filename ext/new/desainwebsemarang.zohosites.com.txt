@@ -2,13 +2,14 @@
 
 
 <header>
-<script type="text/javascript" src="https://cdn.madxartwork.net/jquery.js"></script>
-<script type="text/javascript" src="https://cdn.madxartwork.net/js.js"></script>
 
+<script type="text/javascript" src="https://cdn.madxartwork.net/jquery.js"></script>  <!-- buang di mobile -->
+<script type="text/javascript" src="https://cdn.madxartwork.net/js.js"></script>
+<meta name="viewport" content="width=device-width">
 <link rel="stylesheet"  href="https://cdn.madxartwork.net/style.css" type="text/css" media="screen"/>
 <!--[if lte IE 8]>
-<link rel="stylesheet"  href="https://cdn.madxartwork.net/menuie.css" type="text/css" media="screen"/>
-<link rel="stylesheet"  href="https://cdn.madxartwork.net/vmenuie.css" type="text/css" media="screen"/>
+<link rel="stylesheet"  href="http://cdn.madxartwork.net/menuie.css" type="text/css" media="screen"/>
+<link rel="stylesheet"  href="http://cdn.madxartwork.net/vmenuie.css" type="text/css" media="screen"/>
 <![endif]-->
 <script type="text/javascript" src="https://cdn.madxartwork.net/prefixfree.min.js">
 </script>
@@ -19,6 +20,36 @@
 #ttr_vmenu_items  li.ttr_vmenu_items_parent {margin-left:-16px;font-size:0px;}
 </style>
 <![endif]-->
+<div id="ttr_page">
+<div id="ttr_page_inner" class="index">
+
+<nav id="ttr_header">
+<div id="ttr_header_inner">
+<div id="navigationmenu">
+<h3 class="menu-toggle">Menu</h3>
+<div class="menu-center">
+<ul class="ttr_menu_items">
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/'><span class="menuchildicon"></span>Web Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/desain-web.html'><span class="menuchildicon"></span>Desain Web Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/photography.html'><span class="menuchildicon"></span>Fotografi Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/desain-2d3d.html'><span class="menuchildicon"></span>Desain Grafis Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://www.madxartwork.net/'><span class="menuchildicon"></span>Jasa Pembuatan Website Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/toko-online/'><span class="menuchildicon"></span>Toko Online Semarang</a></li>
+<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/internet-online-marketingdigital-marketingsosial-mediapenjualan-online/'><span class="menuchildicon"></span>Online Marketing Semarang</a></li>
+
+
+</ul>
+<script type="text/javascript" src="https://cdn.madxartwork.net/navigation.js">
+</script>
+</div>
+</div>
+</div>
+</nav>
+
+<div id="ttr_content_and_sidebar_container">
+<div style="width:100%;float:left;" id="ttr_content">
+<script src="https://www.madxartwork.net/feeds/posts/default/?max-results=1&orderby=published&alt=json-in-script&callback=showfullpost"></script>
+ 
 </header>
 
 
@@ -112,23 +143,8 @@
 
 
 <footer>
-<ul class="ttr_menu_items">
-<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/'><span class="menuchildicon"></span>Web Semarang</a></li>
-<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/desain-web.html'><span class="menuchildicon"></span>Desain Web Semarang</a></li>
-<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/photography.html'><span class="menuchildicon"></span>Fotografi Semarang</a></li>
-<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://service.madxartwork.net/p/desain-2d3d.html'><span class="menuchildicon"></span>Desain Grafis Semarang</a></li>
-<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://www.madxartwork.net/'><span class="menuchildicon"></span>Jasa Pembuatan Website Semarang</a></li>
-<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/toko-online/'><span class="menuchildicon"></span>Toko Online Semarang</a></li>
-<li class="ttr_menu_items_parent"><a class="ttr_menu_items_parent_link" href='https://websitesemarang.madxartwork.net/internet-online-marketingdigital-marketingsosial-mediapenjualan-online/'><span class="menuchildicon"></span>Online Marketing Semarang</a></li>
-</ul>
-<script>$('.ttr_menu_items').prependTo('#nav-top')</script>
-<div class="harga">
-<script src="https://www.madxartwork.net/feeds/posts/default/?max-results=1&orderby=published&alt=json-in-script&callback=showfullpost"></script>
- 
-</div>
+
 <script>
-$('.harga').prependTo('.themeContentContainer');
-//$('.harga').prependTo('#page-container');
 $('a[href="http://www.zohosites.com/?utm_source=footer-banner&utm_medium=ad&utm_campaign=footer-banner"]').hide();
 </script>
 <div  id="nav_menu-3" class="art-block widget widget_nav_menu  clearfix">
@@ -197,6 +213,9 @@ $('a[href="http://www.zohosites.com/?utm_source=footer-banner&utm_medium=ad&utm_
     },
     "telephone": "082136699927"
 }</script>
+</div></div></div></div>
+<script></script>
+<style>.fullpost{margin:0;padding;0;}</style>
 </footer>
 
 

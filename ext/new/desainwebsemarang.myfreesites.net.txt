@@ -1,3 +1,4 @@
+<!-- matikan ajax di setingan header footer-->
 <header>
 <script type="text/javascript" src="https://cdn.madxartwork.net/jquery.js"></script>  <!-- buang di mobile -->
 <script type="text/javascript" src="https://cdn.madxartwork.net/js.js"></script>
